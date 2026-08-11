@@ -1,0 +1,1788 @@
+{
+  "version": "1.0.0",
+  "siteConfig": {
+    "companyName": "Monex",
+    "taglines": [
+      "A Stone Care Expert",
+      "Tools That Don't Quit"
+    ],
+    "whatsapp": {
+      "phoneNumber": "918287801030",
+      "defaultMessageTemplate": "Hey, what is the price of {productName}?"
+    },
+    "email": {
+      "address": "monexpowertool@gmail.com",
+      "defaultSubject": "Product Enquiry - Monex"
+    },
+    "phone": "PLACEHOLDER_COMPANY_PHONE",
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/monex-powertools",
+      "instagram": "https://www.instagram.com/monexpowertools/",
+      "facebook": "https://www.facebook.com/p/Monex-Power-Tools-61565892710216/",
+      "youtube": "PLACEHOLDER_YOUTUBE_URL"
+    },
+    "location": {
+      "address": "PLACEHOLDER_OFFICE_ADDRESS",
+      "googleMapsUrl": "PLACEHOLDER_GOOGLE_MAPS_URL"
+    }
+  },
+  "categories": [
+    {
+      "id": "stone-care-chemicals",
+      "name": "Stone Care Chemicals",
+      "slug": "stone-care-chemicals",
+      "description": "Premium stone care chemicals providing complete solutions for marble, tiles, granite, and natural stones.",
+      "subcategories": [
+        "Enhancers & Polishers",
+        "Cleaners & Disinfectants",
+        "Adhesives & Epoxies",
+        "Densifiers & Hardeners",
+        "Sealers & Surface Protection"
+      ]
+    },
+    {
+      "id": "power-tools",
+      "name": "Power Tools",
+      "slug": "power-tools",
+      "description": "Professional power tools engineered for stone processing, construction, and heavy-duty tasks.",
+      "subcategories": [
+        "Pro Series",
+        "Made in India",
+        "Classic Series"
+      ]
+    },
+    {
+      "id": "diamond-tools",
+      "name": "Diamond Tools & Cutting Accessories",
+      "slug": "diamond-tools",
+      "description": "High-precision diamond saw blades, ultra-thin zero-chip cutters, and specialized grooving blades.",
+      "subcategories": [
+        "Pro Series Diamond Blades",
+        "Zero-Chip Blades",
+        "Wood Cutting Blades",
+        "Grooving Blades",
+        "Specialty Blades"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "m555-shiner",
+      "slug": "m555-shiner",
+      "name": "M555 Shiner",
+      "model": "M555 Shiner",
+      "category": "stone-care-chemicals",
+      "subcategory": "Enhancers & Polishers",
+      "series": "Monex Chemical",
+      "tagline": "Multi Purpose Cleaner",
+      "description": "M555 Shiner is a premium marble enhancer specially formulated to deliver a luxurious gloss and promote a smoother marble surface. For a flawless shine, simply pour the product, scrub evenly, and use a polishing machine to achieve a rich, high-gloss finish that enhances the marble's natural beauty.",
+      "packSizes": [
+        "1ltr",
+        "5ltr"
+      ],
+      "specifications": [
+        {
+          "key": "Application Surface",
+          "value": "Marble, Tiles, Granite, Natural Stone"
+        },
+        {
+          "key": "Usage Method",
+          "value": "Pour product, scrub evenly, and use polishing machine"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": "/products/chemicals/IMG_5615.JPG.jpeg",
+        "gallery": [],
+        "status": "supplied_photo"
+      }
+    },
+    {
+      "id": "r33-disinfectant",
+      "slug": "r33-disinfectant",
+      "name": "R33 Disinfectant",
+      "model": "R33 Disinfectant",
+      "category": "stone-care-chemicals",
+      "subcategory": "Cleaners & Disinfectants",
+      "series": "Monex Chemical",
+      "tagline": "Powerful Cleaning Solution",
+      "description": "R33 Disinfectant is a powerful cleaning solution specially formulated to kill 99.9% of germs while effectively removing tough stains and dirt. Its advanced formula leaves behind a pleasant floral fragrance, helping keep surfaces clean, fresh, and hygienic. Use R33 regularly for everyday cleaning and complete germ protection.",
+      "packSizes": [
+        "500ml",
+        "1Ltr"
+      ],
+      "specifications": [
+        {
+          "key": "Germ Kill Rate",
+          "value": "99.9%"
+        },
+        {
+          "key": "Fragrance",
+          "value": "Floral"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": "/products/chemicals/IMG_5614.JPG.jpeg",
+        "gallery": [],
+        "status": "supplied_photo"
+      }
+    },
+    {
+      "id": "mastic",
+      "slug": "mastic",
+      "name": "Mastic",
+      "model": "Mastic",
+      "category": "stone-care-chemicals",
+      "subcategory": "Adhesives & Epoxies",
+      "series": "Monex Chemical",
+      "tagline": "Polyester Resin Joint Filler",
+      "description": "Eliminate joint filling problems on granite or marble floors in commercial buildings with this strong adhesive. It keeps your floor durable and resistant to external changes. With this polyester resin flooring, maintenance becomes hassle-free, thanks to its powerful adhesive properties. Best of all, it is available in both liquid and solid forms, allowing you to use it exactly as needed for your specific application.",
+      "packSizes": [
+        "1.5kg Cream Solid/Liquid",
+        "1.5kg White Solid/Liquid",
+        "1.5kg Mastic Black"
+      ],
+      "specifications": [
+        {
+          "key": "Forms Available",
+          "value": "Liquid, Solid"
+        },
+        {
+          "key": "Color Variants",
+          "value": "Cream, White, Black"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": "/products/chemicals/IMG_5617.JPG.jpeg",
+        "gallery": [
+          "/products/chemicals/IMG_5616.JPG.jpeg"
+        ],
+        "status": "supplied_photo"
+      }
+    },
+    {
+      "id": "hipo-glue",
+      "slug": "hipo-glue",
+      "name": "Hipo-Glue",
+      "model": "Hipo-Glue Gel",
+      "category": "stone-care-chemicals",
+      "subcategory": "Adhesives & Epoxies",
+      "series": "Monex Chemical",
+      "tagline": "Epoxy Paste for Stone Repair",
+      "description": "Monex Hipo-Glue Gel is a premium natural white, non-yellowing two-component epoxy paste specially designed for bonding, filling cracks, holes, and repairing marble, granite, and stone surfaces. Its strong adhesion and smooth finish make it ideal for repairing both minor and major imperfections while maintaining the natural appearance of the stone.",
+      "packSizes": [
+        "Part A: 1.5kg + Part B: 0.75kg packing"
+      ],
+      "specifications": [
+        {
+          "key": "Type",
+          "value": "Two-component epoxy paste"
+        },
+        {
+          "key": "Color",
+          "value": "Natural White (Non-yellowing)"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": "/products/chemicals/IMG_5618.JPG.jpeg",
+        "gallery": [
+          "/products/chemicals/IMG_5619.JPG.jpeg"
+        ],
+        "status": "supplied_photo"
+      }
+    },
+    {
+      "id": "densifier-sil-200",
+      "slug": "densifier-sil-200",
+      "name": "Densifier Sil-200",
+      "model": "Sil-200",
+      "category": "stone-care-chemicals",
+      "subcategory": "Densifiers & Hardeners",
+      "series": "Monex Chemical",
+      "tagline": "Stone Hardener & Densifier",
+      "description": "Helps strengthen and harden stone surfaces for improved durability. Reduces porosity and increases stone density for better protection. Nano particles penetrate and fill micro pores, enhancing surface strength and performance.",
+      "packSizes": [
+        "1kg (Bottle)",
+        "5kg (Gallon)",
+        "10kg (Bucket)"
+      ],
+      "specifications": [
+        {
+          "key": "Technology",
+          "value": "Nano particle penetration"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": "/products/chemicals/IMG_5620.JPG.jpeg",
+        "gallery": [],
+        "status": "supplied_photo"
+      }
+    },
+    {
+      "id": "densifier-sil-800",
+      "slug": "densifier-sil-800",
+      "name": "Densifier Sil-800",
+      "model": "Sil-800",
+      "category": "stone-care-chemicals",
+      "subcategory": "Densifiers & Hardeners",
+      "series": "Monex Chemical",
+      "tagline": "Gloss & Clarity Enhancing Densifier",
+      "description": "Helps eliminate remaining micro pores for a smoother and more refined surface. Further compacts the stone surface to enhance strength and durability. Achieves a higher level of gloss and clarity for an enhanced finish.",
+      "packSizes": [
+        "1kg (Bottle)",
+        "5kg (Gallon)",
+        "10kg (Bucket)"
+      ],
+      "specifications": [
+        {
+          "key": "Feature",
+          "value": "High gloss and clarity finish"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": "/products/chemicals/IMG_5620.JPG.jpeg",
+        "gallery": [],
+        "status": "supplied_photo"
+      }
+    },
+    {
+      "id": "l-special-polygel",
+      "slug": "l-special-polygel",
+      "name": "L-Special / Polygel",
+      "model": "L-Special",
+      "category": "stone-care-chemicals",
+      "subcategory": "Adhesives & Epoxies",
+      "series": "Monex Chemical",
+      "tagline": "Polyester-based Gel Adhesive",
+      "description": "Monex L-Special is a premium-quality, two-component polyester-based gel adhesive specially developed for bonding, filling, and repairing white, light-colored, and transparent crystalline natural stones such as Carrara, Thassos, and Onyx. Its water-clear, virtually colorless formulation provides a transparent finish that preserves and enhances the natural crystalline appearance of the stone while delivering strong and reliable adhesion.",
+      "packSizes": [
+        "1.04kg (Incl. Hardner)"
+      ],
+      "specifications": [
+        {
+          "key": "Target Stones",
+          "value": "Carrara, Thassos, Onyx, crystalline natural stones"
+        },
+        {
+          "key": "Formulation",
+          "value": "Water-clear, virtually colorless"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": "/products/chemicals/IMG_5621.JPG.jpeg",
+        "gallery": [],
+        "status": "supplied_photo"
+      }
+    },
+    {
+      "id": "bottom-surface-sealer",
+      "slug": "bottom-surface-sealer",
+      "name": "Bottom Surface Sealer",
+      "model": "Bottom Surface Sealer",
+      "category": "stone-care-chemicals",
+      "subcategory": "Sealers & Surface Protection",
+      "series": "Monex Chemical",
+      "tagline": "Solvent-based Water-Repellent Sealer",
+      "description": "A solvent-based water-repellent sealer specially formulated for marble, granite, limestone, and natural stone. It seals the base surface to help prevent moisture penetration, staining, efflorescence, and weather damage while maintaining the stone's natural appearance.",
+      "packSizes": [
+        "1Ltr",
+        "5Ltr"
+      ],
+      "specifications": [
+        {
+          "key": "Base Type",
+          "value": "Solvent-based"
+        },
+        {
+          "key": "Protection",
+          "value": "Moisture penetration, staining, efflorescence, weather damage"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": "/products/chemicals/IMG_5622.JPG.jpeg",
+        "gallery": [],
+        "status": "supplied_photo"
+      }
+    },
+    {
+      "id": "epoxy-resin-hardener",
+      "slug": "epoxy-resin-hardener",
+      "name": "Epoxy: Resin & Hardener",
+      "model": "Epoxy Resin & Hardener System",
+      "category": "stone-care-chemicals",
+      "subcategory": "Adhesives & Epoxies",
+      "series": "Monex Chemical",
+      "tagline": "Two-Component Epoxy Coating System",
+      "description": "A high-performance two-component epoxy coating system designed for marble, granite, and stone surfaces. It provides strong adhesion, excellent crack penetration, and a clear, durable finish. The resin and hardener are mixed in the recommended ratio to deliver reliable bonding and long-lasting protection against moisture and surface wear.",
+      "packSizes": [
+        "1kg incl hardner"
+      ],
+      "specifications": [
+        {
+          "key": "System Type",
+          "value": "Two-component epoxy coating"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": "/products/chemicals/IMG_5266.JPG.jpeg",
+        "gallery": [],
+        "status": "supplied_photo"
+      }
+    },
+    {
+      "id": "stone-darkner-plus",
+      "slug": "stone-darkner-plus",
+      "name": "Stone Darkner Plus",
+      "model": "Stone Darkner Plus",
+      "category": "stone-care-chemicals",
+      "subcategory": "Sealers & Surface Protection",
+      "series": "Monex Chemical",
+      "tagline": "Granite Surface Enhancer & Reviver",
+      "description": "Stone Darkner Plus is specially formulated to enhance and restore the natural appearance of granite surfaces by bringing out their true color and richness. It helps revive dull-looking stone, improves visual depth, and provides a more vibrant, refreshed finish while highlighting the stone's original beauty and texture.",
+      "packSizes": [
+        "500ml"
+      ],
+      "specifications": [
+        {
+          "key": "Target Surface",
+          "value": "Granite"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "stain-remover",
+      "slug": "stain-remover",
+      "name": "Stain Remover",
+      "model": "Stain Remover",
+      "category": "stone-care-chemicals",
+      "subcategory": "Cleaners & Disinfectants",
+      "series": "Monex Chemical",
+      "tagline": "Water-based Heavy Stain Cleaner",
+      "description": "Monex Stain Remover is a water-based formulation specially designed to remove tough stains from marble, tiles, and stone surfaces effectively. It helps restore the original appearance of surfaces while ensuring efficient cleaning performance. Use with caution and follow safety instructions carefully, as improper handling may be hazardous to health.",
+      "packSizes": [
+        "1Ltr"
+      ],
+      "specifications": [
+        {
+          "key": "Formulation",
+          "value": "Water-based"
+        },
+        {
+          "key": "Safety Note",
+          "value": "Follow safety instructions carefully"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mx-62l",
+      "slug": "mx-62l-compressor",
+      "name": "MX-62L Compressor",
+      "model": "MX-62L",
+      "category": "power-tools",
+      "subcategory": "Pro Series",
+      "series": "Pro Series",
+      "tagline": "62L COMPRESSOR",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Capacity",
+          "value": "62 Liter"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": "/products/power-tools/pro-series/IMG_4656.JPG.jpeg",
+        "gallery": [
+          "/products/power-tools/pro-series/IMG_4657.JPG.jpeg"
+        ],
+        "status": "supplied_photo"
+      }
+    },
+    {
+      "id": "mx-dh26",
+      "slug": "mx-dh26-rotary-hammer",
+      "name": "MX-DH26 Rotary Hammer",
+      "model": "MX-DH26",
+      "category": "power-tools",
+      "subcategory": "Pro Series",
+      "series": "Pro Series",
+      "tagline": "26MM ROTARY HAMMER",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Capacity",
+          "value": "26mm"
+        }
+      ],
+      "catalogueStatus": "Arriving Soon",
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "missing"
+      }
+    },
+    {
+      "id": "mx-10d-lr",
+      "slug": "mx-10d-lr-drill",
+      "name": "MX 10D L/R Drill",
+      "model": "MX 10D L/R",
+      "category": "power-tools",
+      "subcategory": "Pro Series",
+      "series": "Pro Series",
+      "tagline": "10MM LEFT/RIGHT DRILL",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Chuck Capacity",
+          "value": "10mm"
+        },
+        {
+          "key": "Rotation",
+          "value": "Left / Right Reversible"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": "/products/power-tools/pro-series/IMG_1472.JPG.jpeg",
+        "gallery": [],
+        "status": "supplied_photo"
+      }
+    },
+    {
+      "id": "mx-10a",
+      "slug": "mx-10a-drill",
+      "name": "MX-10A Drill",
+      "model": "MX-10A",
+      "category": "power-tools",
+      "subcategory": "Pro Series",
+      "series": "Pro Series",
+      "tagline": "10MM DRILL (2310)",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Chuck Capacity",
+          "value": "10mm"
+        },
+        {
+          "key": "Model Equivalent",
+          "value": "2310"
+        }
+      ],
+      "catalogueStatus": "Coming Soon",
+      "images": {
+        "primary": "/products/power-tools/pro-series/IMG_1473.JPG.jpeg",
+        "gallery": [],
+        "status": "supplied_photo"
+      }
+    },
+    {
+      "id": "mx-2510",
+      "slug": "mx-2510-planer",
+      "name": "MX-2510 Planer",
+      "model": "MX-2510",
+      "category": "power-tools",
+      "subcategory": "Pro Series",
+      "series": "Pro Series",
+      "tagline": "PLANER (2510)",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Type",
+          "value": "Planer"
+        }
+      ],
+      "catalogueStatus": "Coming Soon",
+      "images": {
+        "primary": "/products/power-tools/pro-series/IMG_1474.JPG.jpeg",
+        "gallery": [],
+        "status": "supplied_photo"
+      }
+    },
+    {
+      "id": "mx-cm5-pro",
+      "slug": "mx-cm5-pro-cutter",
+      "name": "MX-CM5 PRO Cutter",
+      "model": "MX-CM5 PRO",
+      "category": "power-tools",
+      "subcategory": "Pro Series",
+      "series": "Pro Series",
+      "tagline": "CM5 PRO CUTTER MACHINE",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Type",
+          "value": "CM5 Pro Cutter"
+        }
+      ],
+      "catalogueStatus": "Coming Soon",
+      "images": {
+        "primary": "/products/power-tools/pro-series/IMG_1475.JPG.jpeg",
+        "gallery": [
+          "/products/power-tools/pro-series/IMG_1476.JPG.jpeg"
+        ],
+        "status": "supplied_photo"
+      }
+    },
+    {
+      "id": "mx-ph65a",
+      "slug": "mx-ph65a-demolition-hammer",
+      "name": "MX-PH65A Demolition Hammer",
+      "model": "MX-PH65A",
+      "category": "power-tools",
+      "subcategory": "Pro Series",
+      "series": "Pro Series",
+      "tagline": "HEAVY DUTY DEMOLITION HAMMER",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Type",
+          "value": "Demolition Hammer"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mb-400",
+      "slug": "mb-400-blower",
+      "name": "MB-400 Blower",
+      "model": "MB-400",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "BLOWER SINGLE SPEED",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Speed Type",
+          "value": "Single Speed"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mb-500v",
+      "slug": "mb-500v-blower",
+      "name": "MB-500V Blower",
+      "model": "MB-500V",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "BLOWER VARIABLE SPEED",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Speed Type",
+          "value": "Variable Speed"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mhg-1800",
+      "slug": "mhg-1800-heat-gun",
+      "name": "MHG-1800 Heat Gun",
+      "model": "MHG-1800",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "HEAT GUN (HIGH/LOW SPEED)",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Speed Settings",
+          "value": "High / Low Speed"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "msp-10",
+      "slug": "msp-10-impact-drill",
+      "name": "MSP-10 Impact Drill",
+      "model": "MSP-10",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "IMPACT DRILL",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Type",
+          "value": "Impact Drill"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "hsd2700",
+      "slug": "hsd2700-polisher",
+      "name": "HSD2700 Polisher",
+      "model": "HSD2700",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "HIGH SPEED POLISHER",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Type",
+          "value": "High Speed Polisher"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mhd-13",
+      "slug": "mhd-13-hammer-drill",
+      "name": "MHD-13 Hammer Drill",
+      "model": "MHD-13",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "HAMMER DRILL / EID13",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Equivalent Model",
+          "value": "EID13"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mc-110",
+      "slug": "mc-110-cutter",
+      "name": "MC-110 CM4 Cutter",
+      "model": "MC-110",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "CM4 CUTTER MACHINE",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Machine Type",
+          "value": "CM4 Cutter"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mc-110xf",
+      "slug": "mc-110xf-cutter",
+      "name": "MC-110XF Cutter",
+      "model": "MC-110XF",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "CM4 CUTTER 50MM ARMATURE/STATOR",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Armature / Stator",
+          "value": "50mm"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mc-125b",
+      "slug": "mc-125b-cutter",
+      "name": "MC-125B 5\" SB Cutter",
+      "model": "MC-125B",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "5\" SB CUTTER MACHINE",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Size",
+          "value": "5 inch SB"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mc-150",
+      "slug": "mc-150-cutter",
+      "name": "MC-150 CM6 Cutter",
+      "model": "MC-150",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "CM6 CUTTER MACHINE",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Machine Type",
+          "value": "CM6 Cutter"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "md-10",
+      "slug": "md-10-drill",
+      "name": "MD-10 Drill",
+      "model": "MD-10",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "10MM DRILL MACHINE",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Chuck Capacity",
+          "value": "10mm"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mx-cm4",
+      "slug": "mx-cm4-cutter",
+      "name": "MX CM4 Cutter",
+      "model": "MX CM4",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "CM4 MARBLE CUTTER",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Application",
+          "value": "Marble Cutter"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mx-cm4sb",
+      "slug": "mx-cm4sb-cutter",
+      "name": "MX CM4SB Cutter",
+      "model": "MX CM4SB",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "CM4 SB MARBLE CUTTER",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Application",
+          "value": "CM4 SB Marble Cutter"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mx-801",
+      "slug": "mx-801-grinder",
+      "name": "MX-801 Angle Grinder",
+      "model": "MX-801",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "801 ANGLE GRINDER",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Type",
+          "value": "Angle Grinder"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mx-0810",
+      "slug": "mx-0810-demolition",
+      "name": "MX-0810 Demolition Hammer",
+      "model": "MX-0810",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "5KG / 0810 DEMOLITION",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Weight / Class",
+          "value": "5kg / 0810"
+        }
+      ],
+      "catalogueStatus": "Arriving Soon",
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mx-6100",
+      "slug": "mx-6100-grinder",
+      "name": "MX-6100 Angle Grinder",
+      "model": "MX-6100",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "6-100 ANGLE GRINDER",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Size",
+          "value": "6-100"
+        }
+      ],
+      "catalogueStatus": "Arriving Soon",
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mx-0835",
+      "slug": "mx-0835-demolition",
+      "name": "MX-0835 Demolition Hammer",
+      "model": "MX-0835",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "7KG / 0835 DEMOLITION",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Weight / Class",
+          "value": "7kg / 0835"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mx-ff160",
+      "slug": "mx-ff160-paint-mixer",
+      "name": "MX-FF160 Paint Mixer",
+      "model": "MX-FF160",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "PAINT MIXTURE",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Application",
+          "value": "Paint Mixture / Mixer"
+        }
+      ],
+      "catalogueStatus": "Arriving Soon",
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mx-sd10b",
+      "slug": "mx-sd10b-screwdriver",
+      "name": "MX-SD10B Electric Screwdriver",
+      "model": "MX-SD10B",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "ELECTRIC SCREWDRIVER",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Type",
+          "value": "Electric Screwdriver"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mx-35-a",
+      "slug": "mx-35-a-vibrator",
+      "name": "MX-35-A Vibrator Machine",
+      "model": "MX-35-A",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "VIBRATOR MACHINE",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Type",
+          "value": "Vibrator Machine"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mx-2-26",
+      "slug": "mx-2-26-hammer",
+      "name": "MX-2-26 Hammer Machine",
+      "model": "MX-2-26",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "2-26 HAMMER MACHINE",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Class",
+          "value": "2-26"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mx-50l",
+      "slug": "mx-50l-compressor",
+      "name": "MX-50L Compressor",
+      "model": "MX-50L",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "COMPRESSOR 50L",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Capacity",
+          "value": "50L"
+        }
+      ],
+      "catalogueStatus": "Arriving Soon",
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mx-2-20",
+      "slug": "mx-2-20-hammer",
+      "name": "MX-2-20 Hammer",
+      "model": "MX-2-20",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "2-20 HAMMER",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Class",
+          "value": "2-20"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mx-tv-21",
+      "slug": "mx-tv-21-tile-vibrator",
+      "name": "MX-TV-21 Tile Vibrator",
+      "model": "MX-TV-21",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "21V TILE VIBRATOR",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Voltage",
+          "value": "21V"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "gdr-17",
+      "slug": "gdr-17-floor-polishing-machine",
+      "name": "GDR-17 Floor Polishing Machine",
+      "model": "GDR-17",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "FLOOR POLISHING MACHINE",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Type",
+          "value": "Floor Polishing Machine"
+        }
+      ],
+      "catalogueStatus": "Price on Order",
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mx-cp-180",
+      "slug": "mx-cp-180-car-polisher",
+      "name": "MX-CP-180 Car Polisher",
+      "model": "MX-CP-180",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "CAR POLISHER",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Type",
+          "value": "Car Polisher"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mx-2-13a",
+      "slug": "mx-2-13a-hammer-drill",
+      "name": "MX-2-13A Hammer Drill with Kit",
+      "model": "MX-2-13A",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "13MM HAMMER DRILL WITH KIT",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Capacity",
+          "value": "13mm"
+        },
+        {
+          "key": "Accessories",
+          "value": "With Kit"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "mx-clipper",
+      "slug": "mx-clipper-horse-clipper",
+      "name": "MX-CLIPPER Horse Clipper",
+      "model": "MX-CLIPPER",
+      "category": "power-tools",
+      "subcategory": "Classic Series",
+      "series": "Classic Series",
+      "tagline": "HORSE CLIPPER",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Type",
+          "value": "Horse Clipper"
+        }
+      ],
+      "catalogueStatus": "Coming Soon",
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-9t-pro",
+      "slug": "9t-pro-diamond-blade",
+      "name": "9T PRO Diamond Blade",
+      "model": "9T PRO",
+      "category": "diamond-tools",
+      "subcategory": "Pro Series Diamond Blades",
+      "series": "Diamond Accessories",
+      "tagline": "Pro Series Cutting Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-16t-pro",
+      "slug": "16t-pro-diamond-blade",
+      "name": "16T PRO Diamond Blade",
+      "model": "16T PRO",
+      "category": "diamond-tools",
+      "subcategory": "Pro Series Diamond Blades",
+      "series": "Diamond Accessories",
+      "tagline": "Pro Series Cutting Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-super-thin-turbo",
+      "slug": "super-thin-turbo-blade",
+      "name": "Super Thin Turbo Blade",
+      "model": "Super Thin Turbo",
+      "category": "diamond-tools",
+      "subcategory": "Zero-Chip Blades",
+      "series": "Diamond Accessories",
+      "tagline": "Super Thin Turbo Cutting Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-ultra-thin-0-chip",
+      "slug": "ultra-thin-0-chip-blade",
+      "name": "Ultra Thin (0 Chip) Blade",
+      "model": "Ultra Thin 0 Chip",
+      "category": "diamond-tools",
+      "subcategory": "Zero-Chip Blades",
+      "series": "Diamond Accessories",
+      "tagline": "Zero Chip Ultra Thin Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-hent-0-chip",
+      "slug": "hent-0-chip-blade",
+      "name": "Hent (0 Chip) Blade",
+      "model": "Hent 0 Chip",
+      "category": "diamond-tools",
+      "subcategory": "Zero-Chip Blades",
+      "series": "Diamond Accessories",
+      "tagline": "Zero Chip Precision Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-gold-series-0-chip",
+      "slug": "gold-series-0-chip-blade",
+      "name": "Gold Series (0 Chip) Blade",
+      "model": "Gold Series 0 Chip",
+      "category": "diamond-tools",
+      "subcategory": "Zero-Chip Blades",
+      "series": "Diamond Accessories",
+      "tagline": "Gold Series Zero Chip Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-one-touch-0-chip",
+      "slug": "one-touch-0-chip-blade",
+      "name": "One Touch (0 Chip) Blade",
+      "model": "One Touch 0 Chip",
+      "category": "diamond-tools",
+      "subcategory": "Zero-Chip Blades",
+      "series": "Diamond Accessories",
+      "tagline": "One Touch Zero Chip Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-wood-4-30t",
+      "slug": "wood-4x30t-blade",
+      "name": "Wood Saw Blade 4\" 30T",
+      "model": "Wood 4*30T",
+      "category": "diamond-tools",
+      "subcategory": "Wood Cutting Blades",
+      "series": "Diamond Accessories",
+      "tagline": "4 inch 30 Teeth Wood Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Dimensions",
+          "value": "4 inch x 30 Teeth"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-wood-5-30t",
+      "slug": "wood-5x30t-blade",
+      "name": "Wood Saw Blade 5\" 30T",
+      "model": "Wood 5*30T",
+      "category": "diamond-tools",
+      "subcategory": "Wood Cutting Blades",
+      "series": "Diamond Accessories",
+      "tagline": "5 inch 30 Teeth Wood Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Dimensions",
+          "value": "5 inch x 30 Teeth"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-v-groove",
+      "slug": "v-groove-blade",
+      "name": "V Groove Blade",
+      "model": "V Groove",
+      "category": "diamond-tools",
+      "subcategory": "Grooving Blades",
+      "series": "Diamond Accessories",
+      "tagline": "V-Shape Grooving Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-c-groove",
+      "slug": "c-groove-blade",
+      "name": "C Groove Blade",
+      "model": "C Groove",
+      "category": "diamond-tools",
+      "subcategory": "Grooving Blades",
+      "series": "Diamond Accessories",
+      "tagline": "C-Shape Grooving Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-electroplated",
+      "slug": "electroplated-blade",
+      "name": "Electroplated Blade",
+      "model": "Electroplated",
+      "category": "diamond-tools",
+      "subcategory": "Grooving Blades",
+      "series": "Diamond Accessories",
+      "tagline": "Electroplated Diamond Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-3-cut",
+      "slug": "3-cut-blade",
+      "name": "3 Cut Blade",
+      "model": "3 Cut",
+      "category": "diamond-tools",
+      "subcategory": "Grooving Blades",
+      "series": "Diamond Accessories",
+      "tagline": "Triple Cut Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-turbo-rim",
+      "slug": "turbo-rim-blade",
+      "name": "Turbo + Rim Blade",
+      "model": "Turbo + Rim",
+      "category": "diamond-tools",
+      "subcategory": "Grooving Blades",
+      "series": "Diamond Accessories",
+      "tagline": "Turbo Segmented Rim Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-3in-turbo",
+      "slug": "3in-turbo-blade",
+      "name": "3\" Turbo Blade",
+      "model": "3\" Turbo",
+      "category": "diamond-tools",
+      "subcategory": "Specialty Blades",
+      "series": "Diamond Accessories",
+      "tagline": "3 Inch Turbo Cutting Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-3in-rim",
+      "slug": "3in-rim-blade",
+      "name": "3\" Rim Blade",
+      "model": "3\" Rim",
+      "category": "diamond-tools",
+      "subcategory": "Specialty Blades",
+      "series": "Diamond Accessories",
+      "tagline": "3 Inch Rim Cutting Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-3in-segment",
+      "slug": "3in-segment-blade",
+      "name": "3\" Segment Blade",
+      "model": "3\" Segment",
+      "category": "diamond-tools",
+      "subcategory": "Specialty Blades",
+      "series": "Diamond Accessories",
+      "tagline": "3 Inch Segmented Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-u-groove",
+      "slug": "u-groove-blade",
+      "name": "U Groove Blade",
+      "model": "U Groove",
+      "category": "diamond-tools",
+      "subcategory": "Grooving Blades",
+      "series": "Diamond Accessories",
+      "tagline": "U-Shape Grooving Blade (4mm to 12mm)",
+      "description": null,
+      "packSizes": [
+        "4mm",
+        "5mm",
+        "6mm",
+        "8mm",
+        "10mm",
+        "12mm"
+      ],
+      "specifications": [
+        {
+          "key": "Width Variants",
+          "value": "4mm, 5mm, 6mm, 8mm, 10mm, 12mm"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-5in-22id",
+      "slug": "5in-22id-blade",
+      "name": "5\" 22 ID Blade",
+      "model": "5\" 22 ID",
+      "category": "diamond-tools",
+      "subcategory": "Specialty Blades",
+      "series": "Diamond Accessories",
+      "tagline": "5 Inch Blade with 22mm Inner Diameter",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Outer Diameter",
+          "value": "5 inch"
+        },
+        {
+          "key": "Inner Diameter (Bore)",
+          "value": "22mm"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-114mm-22id",
+      "slug": "114mm-dia-22id-blade",
+      "name": "114mm Dia 22ID Blade",
+      "model": "114mm Dia, 22ID",
+      "category": "diamond-tools",
+      "subcategory": "Specialty Blades",
+      "series": "Diamond Accessories",
+      "tagline": "114mm Diameter Blade with 22mm Inner Diameter",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Outer Diameter",
+          "value": "114mm"
+        },
+        {
+          "key": "Inner Diameter (Bore)",
+          "value": "22mm"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-6in",
+      "slug": "6in-blade",
+      "name": "6\" Cutting Blade",
+      "model": "6\" Blade",
+      "category": "diamond-tools",
+      "subcategory": "Specialty Blades",
+      "series": "Diamond Accessories",
+      "tagline": "6 Inch Diamond Cutting Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Outer Diameter",
+          "value": "6 inch"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-114mm",
+      "slug": "114mm-blade",
+      "name": "114mm Cutting Blade",
+      "model": "114mm",
+      "category": "diamond-tools",
+      "subcategory": "Specialty Blades",
+      "series": "Diamond Accessories",
+      "tagline": "114mm Standard Cutting Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Outer Diameter",
+          "value": "114mm"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-7in",
+      "slug": "7in-blade",
+      "name": "7\" Cutting Blade",
+      "model": "7\" Blade",
+      "category": "diamond-tools",
+      "subcategory": "Specialty Blades",
+      "series": "Diamond Accessories",
+      "tagline": "7 Inch Diamond Cutting Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Outer Diameter",
+          "value": "7 inch"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-8in",
+      "slug": "8in-blade",
+      "name": "8\" Cutting Blade",
+      "model": "8\" Blade",
+      "category": "diamond-tools",
+      "subcategory": "Specialty Blades",
+      "series": "Diamond Accessories",
+      "tagline": "8 Inch Heavy Cutting Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [
+        {
+          "key": "Outer Diameter",
+          "value": "8 inch"
+        }
+      ],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    },
+    {
+      "id": "blade-u-cut",
+      "slug": "u-cut-blade",
+      "name": "U-Cut Blade",
+      "model": "U-CUT",
+      "category": "diamond-tools",
+      "subcategory": "Specialty Blades",
+      "series": "Diamond Accessories",
+      "tagline": "U-Cut Diamond Blade",
+      "description": null,
+      "packSizes": [],
+      "specifications": [],
+      "catalogueStatus": null,
+      "images": {
+        "primary": null,
+        "gallery": [],
+        "status": "catalogue_reference"
+      }
+    }
+  ]
+}
