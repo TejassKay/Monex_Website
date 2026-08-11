@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://monex.in/sitemap.xml
