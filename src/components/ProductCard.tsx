@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Product } from "@/types/catalogue";
@@ -12,6 +14,24 @@ interface ProductCardProps {
 export default function ProductCard({ product }: ProductCardProps) {
   const canonicalUrl = getProductCanonicalUrl(product.category, product.slug);
   const whatsappUrl = getWhatsAppEnquiryUrl(product.name, product.model);
+
+  // Combine primary and gallery images into an array for auto-sliding
+  const allImages = [
+    ...(product.images.primary ? [product.images.primary] : []),
+    ...product.images.gallery,
+  ];
+
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    if (allImages.length <= 1) return;
+
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % allImages.length);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [allImages.length]);
 
   return (
     <div className="bg-white border border-monex-border rounded-sm overflow-hidden flex flex-col justify-between hover:border-monex-green transition-colors duration-150">
@@ -34,14 +54,15 @@ export default function ProductCard({ product }: ProductCardProps) {
             </div>
           )}
 
-          <Link href={canonicalUrl} className="w-full h-full flex items-center justify-center">
-            {product.images.primary ? (
+          <Link href={canonicalUrl} className="w-full h-full flex items-center justify-center relative overflow-hidden">
+            {allImages.length > 0 ? (
               <Image
-                src={product.images.primary}
+                key={allImages[currentImageIndex]}
+                src={allImages[currentImageIndex]}
                 alt={product.name}
                 width={280}
                 height={210}
-                className="object-contain max-h-full max-w-full"
+                className="object-contain max-h-full max-w-full transition-opacity duration-500 ease-in-out"
               />
             ) : (
               <div className="flex flex-col items-center justify-center text-slate-400 p-4 text-center">
@@ -50,6 +71,20 @@ export default function ProductCard({ product }: ProductCardProps) {
               </div>
             )}
           </Link>
+
+          {/* Slide Indicator Dots if multiple images */}
+          {allImages.length > 1 && (
+            <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-1 z-10">
+              {allImages.map((_, idx) => (
+                <span
+                  key={idx}
+                  className={`h-1.5 rounded-full transition-all duration-300 ${
+                    idx === currentImageIndex ? "w-3 bg-monex-green" : "w-1.5 bg-slate-300"
+                  }`}
+                />
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Product Meta */}

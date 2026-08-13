@@ -92,7 +92,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": "/products/chemicals/IMG_5615.JPG.jpeg",
+        "primary": "/products/chemicals/M555_SHINER.JPG.jpeg",
         "gallery": [],
         "status": "supplied_photo"
       }
@@ -123,7 +123,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": "/products/chemicals/IMG_5614.JPG.jpeg",
+        "primary": "/products/chemicals/MULTI_PURPOSE_CLEANER.JPG.jpeg",
         "gallery": [],
         "status": "supplied_photo"
       }
@@ -155,10 +155,8 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": "/products/chemicals/IMG_5617.JPG.jpeg",
-        "gallery": [
-          "/products/chemicals/IMG_5616.JPG.jpeg"
-        ],
+        "primary": "/products/chemicals/MASTIC.JPG.jpeg",
+        "gallery": [],
         "status": "supplied_photo"
       }
     },
@@ -187,10 +185,8 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": "/products/chemicals/IMG_5618.JPG.jpeg",
-        "gallery": [
-          "/products/chemicals/IMG_5619.JPG.jpeg"
-        ],
+        "primary": "/products/chemicals/L-SPECIAL:POLYGEL.JPG.jpeg",
+        "gallery": [],
         "status": "supplied_photo"
       }
     },
@@ -217,7 +213,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": "/products/chemicals/IMG_5620.JPG.jpeg",
+        "primary": "/products/chem_p5_img3.jpeg",
         "gallery": [],
         "status": "supplied_photo"
       }
@@ -245,7 +241,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": "/products/chemicals/IMG_5620.JPG.jpeg",
+        "primary": "/products/chem_p5_img4.jpeg",
         "gallery": [],
         "status": "supplied_photo"
       }
@@ -275,7 +271,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": "/products/chemicals/IMG_5621.JPG.jpeg",
+        "primary": "/products/chemicals/L-SPECIAL:POLYGEL.JPG.jpeg",
         "gallery": [],
         "status": "supplied_photo"
       }
@@ -306,7 +302,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": "/products/chemicals/IMG_5622.JPG.jpeg",
+        "primary": "/products/chemicals/BOTTOM_SURFACE_SEALER.JPG.jpeg",
         "gallery": [],
         "status": "supplied_photo"
       }
@@ -332,7 +328,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": "/products/chemicals/IMG_5266.JPG.jpeg",
+        "primary": "/products/chemicals/EPOXY_RESIN&HARDNER.JPG.jpeg",
         "gallery": [],
         "status": "supplied_photo"
       }
@@ -358,7 +354,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/chemicals/STONE_DARKNER_PLUS.JPG.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -388,7 +384,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/chemicals/STAIN_REMOVER.JPG.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -412,10 +408,8 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": "/products/power-tools/pro-series/IMG_4656.JPG.jpeg",
-        "gallery": [
-          "/products/power-tools/pro-series/IMG_4657.JPG.jpeg"
-        ],
+        "primary": "/products/power_tools/pro_series/MX-62L_COMPRESSOR.JPG.jpeg",
+        "gallery": [],
         "status": "supplied_photo"
       }
     },
@@ -438,7 +432,7 @@
       ],
       "catalogueStatus": "Arriving Soon",
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/pro_series/MX-DH26_ROTARY_HAMMER.JPG.jpeg",
         "gallery": [],
         "status": "missing"
       }
@@ -466,7 +460,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": "/products/power-tools/pro-series/IMG_1472.JPG.jpeg",
+        "primary": "/products/power_tools/pro_series/MX-10D_L:R.JPG.jpeg",
         "gallery": [],
         "status": "supplied_photo"
       }
@@ -494,7 +488,7 @@
       ],
       "catalogueStatus": "Coming Soon",
       "images": {
-        "primary": "/products/power-tools/pro-series/IMG_1473.JPG.jpeg",
+        "primary": "/products/power_tools/pro_series/MX-10A_DRILL.JPG.jpeg",
         "gallery": [],
         "status": "supplied_photo"
       }
@@ -518,7 +512,7 @@
       ],
       "catalogueStatus": "Coming Soon",
       "images": {
-        "primary": "/products/power-tools/pro-series/IMG_1474.JPG.jpeg",
+        "primary": "/products/power_tools/pro_series/MX-2510_PLANER.JPG.jpeg",
         "gallery": [],
         "status": "supplied_photo"
       }
@@ -542,10 +536,8 @@
       ],
       "catalogueStatus": "Coming Soon",
       "images": {
-        "primary": "/products/power-tools/pro-series/IMG_1475.JPG.jpeg",
-        "gallery": [
-          "/products/power-tools/pro-series/IMG_1476.JPG.jpeg"
-        ],
+        "primary": "/products/power_tools/pro_series/MX-CM5_PRO.JPG.jpeg",
+        "gallery": [],
         "status": "supplied_photo"
       }
     },
@@ -568,7 +560,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/pro_series/MX-PH65A_HAMMER.JPG.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -856,7 +848,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/monex_classic/MX_CM4_MARBLE_CUTTER.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -880,7 +872,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/monex_classic/MX_CM4SB_MARBLE_CUTTER.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -904,7 +896,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/monex_classic/MX_801_ANGLE_GRINDER.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -928,7 +920,7 @@
       ],
       "catalogueStatus": "Arriving Soon",
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/monex_classic/MXDH0810_Demolition_Hammer.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -952,7 +944,7 @@
       ],
       "catalogueStatus": "Arriving Soon",
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/monex_classic/MX-6100_ANGLE_GRINDER.PNG",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -976,7 +968,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/monex_classic/MX-0835_DEMOLITION HAMMER.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -1024,7 +1016,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/monex_classic/MX-SD10B_ELECTRIC_SCREWDRIVER.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -1048,7 +1040,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/monex_classic/MX-35A_ELECTRIC_VIBRATOR.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -1072,7 +1064,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/monex_classic/MX-2_26_HAMMER_MACHINE.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -1120,7 +1112,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/monex_classic/MX-2_20_HAMMER_MACHINE.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -1144,7 +1136,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/monex_classic/MX_TV_21_TILE_VIBRATOR.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -1192,8 +1184,10 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
-        "gallery": [],
+        "primary": "/products/power_tools/monex_classic/MX-CP_180_CAR_POLISHER_1.jpeg",
+        "gallery": [
+          "/products/power_tools/monex_classic/MX-CP_180_CAR_POLISHER_2.jpeg"
+        ],
         "status": "catalogue_reference"
       }
     },
@@ -1220,8 +1214,10 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
-        "gallery": [],
+        "primary": "/products/power_tools/monex_classic/MX_21_13A_HAMMER_DRILL_KIT_1.jpeg",
+        "gallery": [
+          "/products/power_tools/monex_classic/MX_21_13A_HAMMER_DRILL_KIT_2.jpeg"
+        ],
         "status": "catalogue_reference"
       }
     },

@@ -1,11 +1,11 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import catalogueData from "@/data/product-catalogue.json";
 import { Product } from "@/types/catalogue";
 import { getWhatsAppEnquiryUrl, getEmailEnquiryUrl } from "@/lib/site-config";
-import { MessageSquare, Mail, ImageOff, CheckCircle2 } from "lucide-react";
+import { MessageSquare, Mail, CheckCircle2 } from "lucide-react";
+import ProductGallery from "@/components/ProductGallery";
 import { Metadata } from "next";
 
 interface ProductPageProps {
@@ -70,67 +70,9 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
 
         {/* Clean Unboxed Stage Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start pt-2">
-          {/* Left Column: Product Image (Dominant Visual Element) */}
-          <div className="lg:col-span-6 space-y-4">
-            <div className="relative aspect-[4/3] bg-monex-offWhite border border-monex-border rounded-sm p-6 flex items-center justify-center overflow-hidden">
-              {product.catalogueStatus && (
-                <div className="absolute top-3 left-3 z-10">
-                  <span className="bg-amber-600 text-white text-xs font-bold px-2.5 py-1 rounded-sm uppercase tracking-wider">
-                    {product.catalogueStatus}
-                  </span>
-                </div>
-              )}
-
-              {product.series && (
-                <div className="absolute top-3 right-3 z-10">
-                  <span className="bg-white text-slate-800 border border-slate-300 text-xs font-semibold px-2.5 py-1 rounded-sm">
-                    {product.series}
-                  </span>
-                </div>
-              )}
-
-              {product.images.primary ? (
-                <Image
-                  src={product.images.primary}
-                  alt={product.name}
-                  width={500}
-                  height={375}
-                  className="object-contain max-h-full max-w-full"
-                  priority
-                />
-              ) : (
-                <div className="flex flex-col items-center justify-center text-slate-400 p-8 text-center">
-                  <ImageOff className="w-12 h-12 mb-2 stroke-1 text-slate-400" />
-                  <span className="text-sm font-semibold text-slate-600">Product Image Coming Soon</span>
-                </div>
-              )}
-            </div>
-
-            {/* Thumbnail Gallery if multiple exist */}
-            {product.images.gallery.length > 0 && (
-              <div className="flex gap-3">
-                <div className="w-20 aspect-square bg-white border-2 border-monex-green rounded-sm p-1">
-                  <Image
-                    src={product.images.primary!}
-                    alt={product.name}
-                    width={80}
-                    height={80}
-                    className="object-contain h-full w-full"
-                  />
-                </div>
-                {product.images.gallery.map((gImg, idx) => (
-                  <div key={idx} className="w-20 aspect-square bg-white border border-monex-border rounded-sm p-1">
-                    <Image
-                      src={gImg}
-                      alt={`${product.name} gallery ${idx + 1}`}
-                      width={80}
-                      height={80}
-                      className="object-contain h-full w-full"
-                    />
-                  </div>
-                ))}
-              </div>
-            )}
+          {/* Left Column: Product Gallery with Manual Controls */}
+          <div className="lg:col-span-6">
+            <ProductGallery product={product} />
           </div>
 
           {/* Right Column: Product Metadata, Specs & Enquiries */}
