@@ -1,16 +1,13 @@
-import React from "react";
-import Link from "next/link";
+"use client";
+
+import React, { useState } from "react";
 import ProductCard from "@/components/ProductCard";
 import catalogueData from "@/data/product-catalogue.json";
 import { Product } from "@/types/catalogue";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Power Tools Catalogue | Monex",
-  description: "Browse Monex heavy-duty power tools across Pro Series, Made in India Series, and Classic Series.",
-};
 
 export default function PowerToolsOverviewPage() {
+  const [selectedSeries, setSelectedSeries] = useState<string>("all");
+
   const products = (catalogueData.products as Product[]).filter(
     (p) => p.category === "power-tools"
   );
@@ -19,98 +16,84 @@ export default function PowerToolsOverviewPage() {
   const madeInIndiaProducts = products.filter((p) => p.series === "Made in India");
   const classicSeriesProducts = products.filter((p) => p.series === "Classic Series");
 
+  const filteredProducts = products.filter((p) => {
+    if (selectedSeries === "all") return true;
+    if (selectedSeries === "pro-series") return p.series === "Pro Series";
+    if (selectedSeries === "made-in-india") return p.series === "Made in India";
+    if (selectedSeries === "classic-series") return p.series === "Classic Series";
+    return true;
+  });
+
   return (
     <div className="bg-monex-offWhite text-monex-black min-h-screen py-10 px-4 sm:px-6 lg:px-8 space-y-8">
       <div className="max-w-7xl mx-auto space-y-8">
         {/* Category Header */}
-        <div className="bg-white border border-monex-border p-6 rounded-sm space-y-3">
-          <span className="text-xs font-mono font-bold text-monex-green uppercase tracking-wider block">
-            Power Equipment Division
-          </span>
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-monex-black uppercase tracking-tight">
-            Monex Power Tools
-          </h1>
-          <p className="text-slate-600 text-xs sm:text-sm max-w-2xl leading-relaxed">
-            Tools that don't quit. High-durability power equipment engineered for continuous stone processing, tile cutting, drilling, and heavy demolition across Pro, Made in India, and Classic series.
-          </p>
+        <div className="bg-white border border-monex-border p-6 rounded-sm space-y-4">
+          <div>
+            <span className="text-xs font-mono font-bold text-monex-green uppercase tracking-wider block">
+              Power Equipment Division
+            </span>
+            <h1 className="text-2xl sm:text-3xl font-extrabold text-monex-black uppercase tracking-tight">
+              Monex Power Tools
+            </h1>
+            <p className="text-slate-600 text-xs sm:text-sm max-w-2xl leading-relaxed">
+              Tools that don't quit. High-durability power equipment engineered for continuous stone processing, tile cutting, drilling, and heavy demolition.
+            </p>
+          </div>
 
-          {/* Series Navigation Pills */}
-          <div className="flex flex-wrap gap-3 pt-2">
-            <Link
-              href="/products/power-tools/pro-series"
-              className="bg-monex-offWhite border border-monex-border hover:border-monex-green text-monex-black px-4 py-2 rounded-sm text-xs font-bold uppercase tracking-wider transition-colors"
+          {/* Persistent Series Filter Bar (All 4 buttons always visible) */}
+          <div className="flex flex-wrap gap-2 pt-2 border-t border-monex-border text-xs font-bold uppercase tracking-wider">
+            <button
+              onClick={() => setSelectedSeries("all")}
+              className={`px-4 py-2 rounded-sm border transition-colors ${
+                selectedSeries === "all"
+                  ? "bg-monex-green text-white border-monex-green"
+                  : "bg-white text-slate-700 border-monex-border hover:bg-monex-offWhite"
+              }`}
             >
-              Pro Series ({proSeriesProducts.length} Products) →
-            </Link>
-            <Link
-              href="/products/power-tools/made-in-india"
-              className="bg-emerald-50 border border-emerald-300 hover:border-monex-green text-emerald-800 px-4 py-2 rounded-sm text-xs font-bold uppercase tracking-wider transition-colors"
+              All Power Tools ({products.length})
+            </button>
+            <button
+              onClick={() => setSelectedSeries("pro-series")}
+              className={`px-4 py-2 rounded-sm border transition-colors ${
+                selectedSeries === "pro-series"
+                  ? "bg-monex-green text-white border-monex-green"
+                  : "bg-white text-slate-700 border-monex-border hover:bg-monex-offWhite"
+              }`}
             >
-              Made in India ({madeInIndiaProducts.length} Products) →
-            </Link>
-            <Link
-              href="/products/power-tools/classic-series"
-              className="bg-monex-offWhite border border-monex-border hover:border-monex-green text-monex-black px-4 py-2 rounded-sm text-xs font-bold uppercase tracking-wider transition-colors"
+              Pro Series ({proSeriesProducts.length})
+            </button>
+            <button
+              onClick={() => setSelectedSeries("made-in-india")}
+              className={`px-4 py-2 rounded-sm border transition-colors ${
+                selectedSeries === "made-in-india"
+                  ? "bg-monex-green text-white border-monex-green"
+                  : "bg-white text-emerald-800 border-emerald-300 bg-emerald-50/50 hover:bg-emerald-50"
+              }`}
             >
-              Classic Series ({classicSeriesProducts.length} Products) →
-            </Link>
+              Made in India ({madeInIndiaProducts.length})
+            </button>
+            <button
+              onClick={() => setSelectedSeries("classic-series")}
+              className={`px-4 py-2 rounded-sm border transition-colors ${
+                selectedSeries === "classic-series"
+                  ? "bg-monex-green text-white border-monex-green"
+                  : "bg-white text-slate-700 border-monex-border hover:bg-monex-offWhite"
+              }`}
+            >
+              Monex Classic ({classicSeriesProducts.length})
+            </button>
           </div>
         </div>
 
-        {/* Pro Series Section */}
+        {/* Product Grid */}
         <div className="space-y-4">
-          <div className="flex justify-between items-center border-b border-monex-border pb-2">
-            <h2 className="text-lg font-bold text-monex-black uppercase tracking-wide">Pro Series Heavy Tools ({proSeriesProducts.length})</h2>
-            <Link
-              href="/products/power-tools/pro-series"
-              className="text-xs font-bold text-monex-green hover:underline uppercase tracking-wider"
-            >
-              View Pro Series Subcategory →
-            </Link>
+          <div className="text-xs font-mono text-slate-600">
+            Showing {filteredProducts.length} power tool products
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {proSeriesProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
-          </div>
-        </div>
 
-        {/* Made in India Section */}
-        <div className="space-y-4 pt-4">
-          <div className="flex justify-between items-center border-b border-monex-border pb-2">
-            <div className="flex items-center gap-2">
-              <h2 className="text-lg font-bold text-monex-black uppercase tracking-wide">Made in India Series ({madeInIndiaProducts.length})</h2>
-              <span className="bg-emerald-100 text-emerald-800 text-[10px] font-bold px-2 py-0.5 rounded-sm uppercase border border-emerald-300">
-                Domestic Line
-              </span>
-            </div>
-            <Link
-              href="/products/power-tools/made-in-india"
-              className="text-xs font-bold text-monex-green hover:underline uppercase tracking-wider"
-            >
-              View Made in India Subcategory →
-            </Link>
-          </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {madeInIndiaProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
-          </div>
-        </div>
-
-        {/* Classic Series Section */}
-        <div className="space-y-4 pt-4">
-          <div className="flex justify-between items-center border-b border-monex-border pb-2">
-            <h2 className="text-lg font-bold text-monex-black uppercase tracking-wide">Classic Series Tools ({classicSeriesProducts.length})</h2>
-            <Link
-              href="/products/power-tools/classic-series"
-              className="text-xs font-bold text-monex-green hover:underline uppercase tracking-wider"
-            >
-              View Classic Series Subcategory →
-            </Link>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {classicSeriesProducts.map((product) => (
+            {filteredProducts.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
           </div>
