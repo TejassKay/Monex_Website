@@ -1259,10 +1259,11 @@
       "specifications": [],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/carman/9t_pro.png",
         "gallery": [],
         "status": "catalogue_reference"
-      }
+      },
+      "imageStatus": "supplied_photo"
     },
     {
       "id": "blade-16t-pro",
@@ -1278,10 +1279,11 @@
       "specifications": [],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/carman/16t_pro.jpg.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
-      }
+      },
+      "imageStatus": "supplied_photo"
     },
     {
       "id": "blade-super-thin-turbo",
@@ -1297,10 +1299,11 @@
       "specifications": [],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/carman/super_thin.png",
         "gallery": [],
         "status": "catalogue_reference"
-      }
+      },
+      "imageStatus": "supplied_photo"
     },
     {
       "id": "blade-ultra-thin-0-chip",
@@ -1316,10 +1319,11 @@
       "specifications": [],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/carman/ultra_thin.png",
         "gallery": [],
         "status": "catalogue_reference"
-      }
+      },
+      "imageStatus": "supplied_photo"
     },
     {
       "id": "blade-hent-0-chip",
@@ -1354,10 +1358,11 @@
       "specifications": [],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/carman/gold_series.jpg.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
-      }
+      },
+      "imageStatus": "supplied_photo"
     },
     {
       "id": "blade-one-touch-0-chip",
@@ -1373,10 +1378,11 @@
       "specifications": [],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/carman/one_touch.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
-      }
+      },
+      "imageStatus": "supplied_photo"
     },
     {
       "id": "blade-wood-4-30t",
@@ -1397,10 +1403,11 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/carman/tct.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
-      }
+      },
+      "imageStatus": "supplied_photo"
     },
     {
       "id": "blade-wood-5-30t",
@@ -1421,10 +1428,11 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/carman/tct.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
-      }
+      },
+      "imageStatus": "supplied_photo"
     },
     {
       "id": "blade-v-groove",
@@ -1497,10 +1505,11 @@
       "specifications": [],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/carman/3_cut_blade.jpg.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
-      }
+      },
+      "imageStatus": "supplied_photo"
     },
     {
       "id": "blade-turbo-rim",
@@ -1516,10 +1525,11 @@
       "specifications": [],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/carman/turbo_plus_rim_blade.jpg.jpeg",
         "gallery": [],
         "status": "catalogue_reference"
-      }
+      },
+      "imageStatus": "supplied_photo"
     },
     {
       "id": "blade-3in-turbo",
@@ -1535,10 +1545,11 @@
       "specifications": [],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/carman/3inch_turbo.png",
         "gallery": [],
         "status": "catalogue_reference"
-      }
+      },
+      "imageStatus": "supplied_photo"
     },
     {
       "id": "blade-3in-rim",
@@ -1632,10 +1643,11 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/carman/5_inch_blade.png",
         "gallery": [],
         "status": "catalogue_reference"
-      }
+      },
+      "imageStatus": "supplied_photo"
     },
     {
       "id": "blade-114mm-22id",
