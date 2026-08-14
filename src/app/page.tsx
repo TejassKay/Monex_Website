@@ -86,7 +86,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Product Divisions Section - Real Product Photography Cards */}
+      {/* Product Divisions Section - Real Product Photography & Brand Logos */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
         <div className="border-b border-monex-border pb-3">
           <h2 className="text-2xl font-bold text-monex-black uppercase tracking-wide">Product Divisions</h2>
@@ -94,13 +94,13 @@ export default function HomePage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Division 1: Stone Care Chemicals */}
+          {/* Division 1: Stone Care Chemicals (CHEMICALS_BUNDLE image) */}
           <div className="bg-white border border-monex-border rounded-sm p-5 space-y-4 flex flex-col justify-between hover:border-monex-green transition-colors">
             <div className="space-y-3">
               <div className="bg-monex-offWhite border border-monex-border aspect-[4/3] rounded-sm p-3 flex items-center justify-center overflow-hidden">
                 <Image
-                  src="/products/chemicals/IMG_5618.JPG.jpeg"
-                  alt="Stone Care Chemicals"
+                  src="/products/chemicals/CHEMICALS_BUNDLE.png"
+                  alt="Monex Stone Care Chemicals Bundle"
                   width={240}
                   height={180}
                   className="object-contain max-h-full max-w-full"
@@ -124,7 +124,7 @@ export default function HomePage() {
             <div className="space-y-3">
               <div className="bg-monex-offWhite border border-monex-border aspect-[4/3] rounded-sm p-3 flex items-center justify-center overflow-hidden">
                 <Image
-                  src="/products/power-tools/pro-series/IMG_4656.JPG.jpeg"
+                  src="/products/power_tools/pro_series/MX-PH65A_HAMMER.JPG.jpeg"
                   alt="Power Tools"
                   width={240}
                   height={180}
@@ -144,13 +144,13 @@ export default function HomePage() {
             </Link>
           </div>
 
-          {/* Division 3: Diamond Tools */}
+          {/* Division 3: Diamond Tools (New clean Carman Logo) */}
           <div className="bg-white border border-monex-border rounded-sm p-5 space-y-4 flex flex-col justify-between hover:border-monex-green transition-colors">
             <div className="space-y-3">
-              <div className="bg-monex-offWhite border border-monex-border aspect-[4/3] rounded-sm p-3 flex items-center justify-center overflow-hidden">
+              <div className="bg-monex-offWhite border border-monex-border aspect-[4/3] rounded-sm p-4 flex items-center justify-center overflow-hidden">
                 <Image
-                  src="/products/rate_p6_img1.png"
-                  alt="Diamond Tools & Accessories"
+                  src="/brand/carman-logo.png"
+                  alt="Carman Diamond Tools & Accessories"
                   width={240}
                   height={180}
                   className="object-contain max-h-full max-w-full"
