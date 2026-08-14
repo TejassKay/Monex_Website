@@ -32,23 +32,23 @@ export default function HomePage() {
     <div className="bg-monex-offWhite text-monex-black min-h-screen space-y-12 sm:space-y-16 pb-16">
       {/* Industrial Hero Section - White / Off-White Background */}
       <section className="bg-white border-b border-monex-border py-10 lg:py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+        
+        {/* Background Watermark Logo (Shifted to leftmost edge of page and slightly up, 35% opacity) */}
+        <div className="absolute -top-6 left-0 w-[60%] lg:w-[48%] h-[130%] opacity-35 pointer-events-none z-0 flex items-center justify-start select-none">
+          <Image
+            src="/brand/monex-logo.png"
+            alt=""
+            width={900}
+            height={300}
+            className="object-contain object-left max-w-none w-full h-full"
+            priority
+          />
+        </div>
+
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
           
-          {/* Left Column with Enlarged 35% Opacity Background Watermark Logo */}
-          <div className="lg:col-span-7 space-y-5 relative">
-            
-            {/* Background Watermark Logo (35% Opacity, enlarged behind main heading) */}
-            <div className="absolute -top-12 -left-12 w-[130%] h-[160%] opacity-35 pointer-events-none -z-10 flex items-center justify-start select-none">
-              <Image
-                src="/brand/monex-logo.png"
-                alt=""
-                width={800}
-                height={260}
-                className="object-contain max-w-none w-full h-full"
-                priority
-              />
-            </div>
-
+          {/* Left Column Content */}
+          <div className="lg:col-span-7 space-y-5">
             <div className="inline-block bg-monex-offWhite border border-monex-border text-monex-green text-xs font-mono font-bold uppercase tracking-wider px-3 py-1 rounded-sm">
               Official Monex Company Website
             </div>
