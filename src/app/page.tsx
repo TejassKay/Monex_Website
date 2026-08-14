@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import ProductCard from "@/components/ProductCard";
+import HeroProductSlider from "@/components/HeroProductSlider";
 import catalogueData from "@/data/product-catalogue.json";
 import { Product } from "@/types/catalogue";
 import { getWhatsAppEnquiryUrl } from "@/lib/site-config";
@@ -9,7 +10,13 @@ import { ArrowRight, MessageSquare, PhoneCall } from "lucide-react";
 export default function HomePage() {
   const products = catalogueData.products as Product[];
 
-  // Curated 6 representative real products
+  // Select 9 products (3 Stone Care Chemicals, 3 Power Tools, 3 Diamond Tools) for Hero Showcase Slider
+  const chemicalHero = products.filter((p) => p.category === "stone-care-chemicals" && p.images.primary).slice(0, 3);
+  const toolHero = products.filter((p) => p.category === "power-tools" && p.images.primary).slice(0, 3);
+  const diamondHero = products.filter((p) => p.category === "diamond-tools" && p.images.primary).slice(0, 3);
+  const heroProducts = [...chemicalHero, ...toolHero, ...diamondHero];
+
+  // Curated 6 representative real products for Featured Products grid
   const featuredIds = [
     "m555-shiner",
     "mx-62l",
@@ -24,9 +31,24 @@ export default function HomePage() {
   return (
     <div className="bg-monex-offWhite text-monex-black min-h-screen space-y-12 sm:space-y-16 pb-16">
       {/* Industrial Hero Section - White / Off-White Background */}
-      <section className="bg-white border-b border-monex-border py-10 lg:py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-          <div className="lg:col-span-7 space-y-5">
+      <section className="bg-white border-b border-monex-border py-10 lg:py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
+          
+          {/* Left Column with Enlarged 35% Opacity Background Watermark Logo */}
+          <div className="lg:col-span-7 space-y-5 relative">
+            
+            {/* Background Watermark Logo (35% Opacity, enlarged behind main heading) */}
+            <div className="absolute -top-12 -left-12 w-[130%] h-[160%] opacity-35 pointer-events-none -z-10 flex items-center justify-start select-none">
+              <Image
+                src="/brand/monex-logo.png"
+                alt=""
+                width={800}
+                height={260}
+                className="object-contain max-w-none w-full h-full"
+                priority
+              />
+            </div>
+
             <div className="inline-block bg-monex-offWhite border border-monex-border text-monex-green text-xs font-mono font-bold uppercase tracking-wider px-3 py-1 rounded-sm">
               Official Monex Company Website
             </div>
@@ -36,14 +58,14 @@ export default function HomePage() {
               <span className="text-monex-green">Tools That Don't Quit</span>
             </h1>
 
-            <p className="text-slate-700 text-sm sm:text-base leading-relaxed max-w-xl">
+            <p className="text-slate-800 text-sm sm:text-base font-medium leading-relaxed max-w-xl">
               Monex is a trusted importer and manufacturer of premium stone care chemicals, high-durability power tools, and precision diamond cutting accessories for marble, granite, tiles, and natural stones.
             </p>
 
             <div className="flex flex-wrap gap-4 pt-2">
               <Link
                 href="/products"
-                className="bg-monex-green hover:bg-monex-darkGreen text-white px-6 py-3 rounded-sm font-bold text-xs uppercase tracking-wider flex items-center gap-2 transition-colors"
+                className="bg-monex-green hover:bg-monex-darkGreen text-white px-6 py-3 rounded-sm font-bold text-xs uppercase tracking-wider flex items-center gap-2 transition-colors shadow-sm"
               >
                 <span>Explore Products</span>
                 <ArrowRight className="w-4 h-4" />
@@ -52,7 +74,7 @@ export default function HomePage() {
                 href={getWhatsAppEnquiryUrl("Monex Homepage Enquiry")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-monex-black hover:bg-slate-800 text-white px-6 py-3 rounded-sm font-bold text-xs uppercase tracking-wider flex items-center gap-2 transition-colors"
+                className="bg-monex-black hover:bg-slate-800 text-white px-6 py-3 rounded-sm font-bold text-xs uppercase tracking-wider flex items-center gap-2 transition-colors shadow-sm"
               >
                 <MessageSquare className="w-4 h-4 text-emerald-400" />
                 <span>Enquire on WhatsApp</span>
@@ -60,28 +82,9 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* Real Product Hero Composition Container */}
+          {/* Right Column: 9-Product Sliding Hero Showcase */}
           <div className="lg:col-span-5 flex justify-center">
-            <div className="bg-monex-offWhite border border-monex-border rounded-sm p-4 w-full max-w-md shadow-sm">
-              <div className="bg-white border border-monex-border p-3 rounded-sm aspect-[4/3] flex items-center justify-center overflow-hidden">
-                <Image
-                  src="/products/chemicals/IMG_5615.JPG.jpeg"
-                  alt="Monex Real Product Photography"
-                  width={340}
-                  height={255}
-                  className="object-contain max-h-full max-w-full"
-                  priority
-                />
-              </div>
-              <div className="pt-3 text-center">
-                <span className="text-xs font-bold text-monex-black block uppercase tracking-wider">
-                  M555 Marble Shiner & Mastic Adhesive
-                </span>
-                <span className="text-[11px] text-slate-500">
-                  Supplying Retailers, Wholesalers & Commercial Contractors
-                </span>
-              </div>
-            </div>
+            <HeroProductSlider products={heroProducts} />
           </div>
         </div>
       </section>
