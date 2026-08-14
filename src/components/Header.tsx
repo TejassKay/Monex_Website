@@ -15,7 +15,7 @@ export default function Header() {
       <div className="bg-monex-black text-slate-300 text-xs py-2 px-4 sm:px-8">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <span className="font-medium text-[11px] sm:text-xs">
-            Monex — Stone Care Chemicals & Power Tools
+            Monex — Stone Care Chemicals, Power Tools & Made in India Equipment
           </span>
           <div className="flex items-center gap-6 text-[11px] sm:text-xs">
             <a
@@ -53,7 +53,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center gap-7 text-xs sm:text-sm font-semibold text-monex-black">
+        <nav className="hidden lg:flex items-center gap-6 text-xs sm:text-sm font-semibold text-monex-black">
           <Link href="/" className="hover:text-monex-green transition-colors py-2">
             Home
           </Link>
@@ -69,6 +69,7 @@ export default function Header() {
           <Link href="/products/diamond-tools" className="hover:text-monex-green transition-colors py-2">
             Diamond Tools
           </Link>
+
           <Link href="/about" className="hover:text-monex-green transition-colors py-2">
             About
           </Link>
@@ -138,6 +139,7 @@ export default function Header() {
           >
             • Diamond Tools & Accessories
           </Link>
+
           <Link
             href="/about"
             onClick={() => setMobileMenuOpen(false)}
