@@ -119,13 +119,13 @@ export default function HomePage() {
             </Link>
           </div>
 
-          {/* Division 2: Power Tools */}
+          {/* Division 2: Power Tools (POWER_TOOLS_HOME image) */}
           <div className="bg-white border border-monex-border rounded-sm p-5 space-y-4 flex flex-col justify-between hover:border-monex-green transition-colors">
             <div className="space-y-3">
               <div className="bg-monex-offWhite border border-monex-border aspect-[4/3] rounded-sm p-3 flex items-center justify-center overflow-hidden">
                 <Image
-                  src="/products/power_tools/pro_series/MX-PH65A_HAMMER.JPG.jpeg"
-                  alt="Power Tools"
+                  src="/products/POWER_TOOLS_HOME.png"
+                  alt="Monex Power Tools Line"
                   width={240}
                   height={180}
                   className="object-contain max-h-full max-w-full"
