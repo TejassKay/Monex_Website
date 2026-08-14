@@ -33,6 +33,65 @@ export default function ProductCard({ product }: ProductCardProps) {
     return () => clearInterval(interval);
   }, [allImages.length]);
 
+  // Determine tag label & custom styling based on product series or category
+  const renderTag = () => {
+    const s = String(product.series || "");
+    const cat = product.category;
+
+    if (s === "Pro Series") {
+      return (
+        <span
+          className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-sm border border-red-900 shadow-sm"
+          style={{ backgroundColor: "#c70809", color: "#eb9005" }}
+        >
+          Pro Series
+        </span>
+      );
+    }
+
+    if (s === "Made in India") {
+      return (
+        <span
+          className="text-[10px] font-extrabold uppercase tracking-wider px-2 py-0.5 rounded-sm text-black shadow-sm border border-amber-300"
+          style={{
+            background: "linear-gradient(135deg, #FF9933 0%, #FFFFFF 50%, #138808 100%)",
+          }}
+        >
+          Made in India
+        </span>
+      );
+    }
+
+    if (s === "Classic Series" || s.includes("Classic")) {
+      return (
+        <span
+          className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-sm text-white shadow-sm"
+          style={{ backgroundColor: "#01a9a4" }}
+        >
+          Monex Classic
+        </span>
+      );
+    }
+
+    if (cat === "diamond-tools" || s === "Diamond Accessories") {
+      return (
+        <span
+          className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-sm text-black border border-cyan-300 shadow-sm"
+          style={{ backgroundColor: "#B9F2FF" }}
+        >
+          Diamond Tools
+        </span>
+      );
+    }
+
+    // Default Chemicals tag
+    return (
+      <span className="bg-slate-100 text-slate-700 border border-slate-300 text-[10px] font-semibold px-2 py-0.5 rounded-sm">
+        {s || "Monex Chemical"}
+      </span>
+    );
+  };
+
   return (
     <div className="bg-white border border-monex-border rounded-sm overflow-hidden flex flex-col justify-between hover:border-monex-green transition-colors duration-150">
       <div>
@@ -46,13 +105,10 @@ export default function ProductCard({ product }: ProductCardProps) {
             </div>
           )}
 
-          {product.series && (
-            <div className="absolute top-2 right-2 z-10">
-              <span className="bg-slate-100 text-slate-700 border border-slate-300 text-[10px] font-semibold px-2 py-0.5 rounded-sm">
-                {product.series}
-              </span>
-            </div>
-          )}
+          {/* Top Right Customized Tag */}
+          <div className="absolute top-2 right-2 z-10">
+            {renderTag()}
+          </div>
 
           <Link href={canonicalUrl} className="w-full h-full flex items-center justify-center relative overflow-hidden">
             {allImages.length > 0 ? (
