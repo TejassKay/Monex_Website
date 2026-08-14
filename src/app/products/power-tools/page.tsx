@@ -7,7 +7,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Power Tools Catalogue | Monex",
-  description: "Browse Monex heavy-duty power tools including Pro Series air compressors, rotary hammers, marble cutters, angle grinders, and floor polishers.",
+  description: "Browse Monex heavy-duty power tools across Pro Series, Made in India Series, and Classic Series.",
 };
 
 export default function PowerToolsOverviewPage() {
@@ -16,6 +16,7 @@ export default function PowerToolsOverviewPage() {
   );
 
   const proSeriesProducts = products.filter((p) => p.series === "Pro Series");
+  const madeInIndiaProducts = products.filter((p) => p.series === "Made in India");
   const classicSeriesProducts = products.filter((p) => p.series === "Classic Series");
 
   return (
@@ -30,16 +31,22 @@ export default function PowerToolsOverviewPage() {
             Monex Power Tools
           </h1>
           <p className="text-slate-600 text-xs sm:text-sm max-w-2xl leading-relaxed">
-            Tools that don't quit. High-durability power equipment engineered for continuous stone processing, tile cutting, drilling, and heavy demolition.
+            Tools that don't quit. High-durability power equipment engineered for continuous stone processing, tile cutting, drilling, and heavy demolition across Pro, Made in India, and Classic series.
           </p>
 
-          {/* Series Tabs */}
+          {/* Series Navigation Pills */}
           <div className="flex flex-wrap gap-3 pt-2">
             <Link
               href="/products/power-tools/pro-series"
               className="bg-monex-offWhite border border-monex-border hover:border-monex-green text-monex-black px-4 py-2 rounded-sm text-xs font-bold uppercase tracking-wider transition-colors"
             >
               Pro Series ({proSeriesProducts.length} Products) →
+            </Link>
+            <Link
+              href="/products/power-tools/made-in-india"
+              className="bg-emerald-50 border border-emerald-300 hover:border-monex-green text-emerald-800 px-4 py-2 rounded-sm text-xs font-bold uppercase tracking-wider transition-colors"
+            >
+              Made in India ({madeInIndiaProducts.length} Products) →
             </Link>
             <Link
               href="/products/power-tools/classic-series"
@@ -53,7 +60,7 @@ export default function PowerToolsOverviewPage() {
         {/* Pro Series Section */}
         <div className="space-y-4">
           <div className="flex justify-between items-center border-b border-monex-border pb-2">
-            <h2 className="text-lg font-bold text-monex-black uppercase tracking-wide">Pro Series Heavy Tools</h2>
+            <h2 className="text-lg font-bold text-monex-black uppercase tracking-wide">Pro Series Heavy Tools ({proSeriesProducts.length})</h2>
             <Link
               href="/products/power-tools/pro-series"
               className="text-xs font-bold text-monex-green hover:underline uppercase tracking-wider"
@@ -68,10 +75,33 @@ export default function PowerToolsOverviewPage() {
           </div>
         </div>
 
+        {/* Made in India Section */}
+        <div className="space-y-4 pt-4">
+          <div className="flex justify-between items-center border-b border-monex-border pb-2">
+            <div className="flex items-center gap-2">
+              <h2 className="text-lg font-bold text-monex-black uppercase tracking-wide">Made in India Series ({madeInIndiaProducts.length})</h2>
+              <span className="bg-emerald-100 text-emerald-800 text-[10px] font-bold px-2 py-0.5 rounded-sm uppercase border border-emerald-300">
+                Domestic Line
+              </span>
+            </div>
+            <Link
+              href="/products/power-tools/made-in-india"
+              className="text-xs font-bold text-monex-green hover:underline uppercase tracking-wider"
+            >
+              View Made in India Subcategory →
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {madeInIndiaProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
+        </div>
+
         {/* Classic Series Section */}
         <div className="space-y-4 pt-4">
           <div className="flex justify-between items-center border-b border-monex-border pb-2">
-            <h2 className="text-lg font-bold text-monex-black uppercase tracking-wide">Classic Series Tools</h2>
+            <h2 className="text-lg font-bold text-monex-black uppercase tracking-wide">Classic Series Tools ({classicSeriesProducts.length})</h2>
             <Link
               href="/products/power-tools/classic-series"
               className="text-xs font-bold text-monex-green hover:underline uppercase tracking-wider"

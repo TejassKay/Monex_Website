@@ -63,13 +63,28 @@ export default function Header() {
           <Link href="/products/stone-care-chemicals" className="hover:text-monex-green transition-colors py-2">
             Stone Chemicals
           </Link>
-          <Link href="/products/power-tools" className="hover:text-monex-green transition-colors py-2">
-            Power Tools
-          </Link>
+
+          {/* Power Tools & Series Dropdown Links */}
+          <div className="relative group py-2">
+            <Link href="/products/power-tools" className="hover:text-monex-green transition-colors flex items-center gap-1">
+              <span>Power Tools</span>
+            </Link>
+            <div className="absolute top-full left-0 hidden group-hover:block bg-white border border-monex-border shadow-md rounded-sm py-2 w-48 z-50 text-xs">
+              <Link href="/products/power-tools/pro-series" className="block px-4 py-2 hover:bg-monex-offWhite hover:text-monex-green">
+                Pro Series
+              </Link>
+              <Link href="/products/power-tools/made-in-india" className="block px-4 py-2 hover:bg-monex-offWhite hover:text-monex-green font-semibold text-emerald-800">
+                Made in India Series
+              </Link>
+              <Link href="/products/power-tools/classic-series" className="block px-4 py-2 hover:bg-monex-offWhite hover:text-monex-green">
+                Classic Series
+              </Link>
+            </div>
+          </div>
+
           <Link href="/products/diamond-tools" className="hover:text-monex-green transition-colors py-2">
             Diamond Tools
           </Link>
-
           <Link href="/about" className="hover:text-monex-green transition-colors py-2">
             About
           </Link>
@@ -125,13 +140,38 @@ export default function Header() {
           >
             • Stone Care Chemicals
           </Link>
-          <Link
-            href="/products/power-tools"
-            onClick={() => setMobileMenuOpen(false)}
-            className="block py-1.5 pl-4 text-xs font-medium text-slate-700 hover:text-monex-green"
-          >
-            • Power Tools (Pro & Classic)
-          </Link>
+
+          <div className="py-1.5 pl-4 space-y-1">
+            <Link
+              href="/products/power-tools"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block text-xs font-bold text-monex-black hover:text-monex-green"
+            >
+              • Power Tools Overview
+            </Link>
+            <Link
+              href="/products/power-tools/pro-series"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block pl-3 text-[11px] text-slate-600 hover:text-monex-green"
+            >
+              - Pro Series
+            </Link>
+            <Link
+              href="/products/power-tools/made-in-india"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block pl-3 text-[11px] text-emerald-800 font-semibold hover:text-monex-green"
+            >
+              - Made in India Series
+            </Link>
+            <Link
+              href="/products/power-tools/classic-series"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block pl-3 text-[11px] text-slate-600 hover:text-monex-green"
+            >
+              - Classic Series
+            </Link>
+          </div>
+
           <Link
             href="/products/diamond-tools"
             onClick={() => setMobileMenuOpen(false)}
