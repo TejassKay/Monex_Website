@@ -10,11 +10,11 @@ import { ArrowRight, MessageSquare, PhoneCall } from "lucide-react";
 export default function HomePage() {
   const products = catalogueData.products as Product[];
 
-  // Select 9 products (3 Stone Care Chemicals, 3 Power Tools, 3 Diamond Tools) for Hero Showcase Slider
+  // Select 9 products (3 Stone Care Chemicals, 3 Power Tools, 3 CARMAN Tools) for Hero Showcase Slider
   const chemicalHero = products.filter((p) => p.category === "stone-care-chemicals" && p.images.primary).slice(0, 3);
   const toolHero = products.filter((p) => p.category === "power-tools" && p.images.primary).slice(0, 3);
-  const diamondHero = products.filter((p) => p.category === "diamond-tools" && p.images.primary).slice(0, 3);
-  const heroProducts = [...chemicalHero, ...toolHero, ...diamondHero];
+  const carmanHero = products.filter((p) => (p.category === "carman" || p.category === "diamond-tools") && p.images.primary).slice(0, 3);
+  const heroProducts = [...chemicalHero, ...toolHero, ...carmanHero];
 
   // Curated 6 representative real products for Featured Products grid
   const featuredIds = [
@@ -59,7 +59,7 @@ export default function HomePage() {
             </h1>
 
             <p className="text-slate-800 text-sm sm:text-base font-medium leading-relaxed max-w-xl">
-              Monex is a trusted importer and manufacturer of premium stone care chemicals, high-durability power tools, and precision diamond cutting accessories for marble, granite, tiles, and natural stones.
+              Monex is a trusted importer and manufacturer of premium stone care chemicals, high-durability power tools, and CARMAN precision diamond cutting accessories for marble, granite, tiles, and natural stones.
             </p>
 
             <div className="flex flex-wrap gap-4 pt-2">
@@ -93,7 +93,7 @@ export default function HomePage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
         <div className="border-b border-monex-border pb-3">
           <h2 className="text-2xl font-bold text-monex-black uppercase tracking-wide">Product Divisions</h2>
-          <p className="text-slate-600 text-xs">Explore structured technical solutions for stone care and power machinery.</p>
+          <p className="text-slate-600 text-xs">Explore structured technical solutions for stone care, power machinery, and Carman tools.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -143,11 +143,11 @@ export default function HomePage() {
               href="/products/power-tools"
               className="text-xs font-bold text-monex-green hover:underline flex items-center gap-1 uppercase tracking-wider pt-2"
             >
-              <span>Explore 35 Power Tools →</span>
+              <span>Explore 34 Power Tools →</span>
             </Link>
           </div>
 
-          {/* Division 3: Diamond Tools (New clean Carman Logo) */}
+          {/* Division 3: CARMAN Division (New clean Carman Logo) */}
           <div className="bg-white border border-monex-border rounded-sm p-5 space-y-4 flex flex-col justify-between hover:border-monex-green transition-colors">
             <div className="space-y-3">
               <div className="bg-monex-offWhite border border-monex-border aspect-[4/3] rounded-sm p-4 flex items-center justify-center overflow-hidden">
@@ -159,16 +159,16 @@ export default function HomePage() {
                   className="object-contain max-h-full max-w-full"
                 />
               </div>
-              <h3 className="text-lg font-bold text-monex-black uppercase">Diamond Tools</h3>
+              <h3 className="text-lg font-extrabold text-cyan-900 uppercase">CARMAN Division</h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Zero-chip diamond blades, ultra-thin turbo cutters, wood saw blades, and specialized V/C/U grooving cutters.
+                Zero-chip diamond blades, ultra-thin turbo cutters, configurable electroplated grooving blades, and wood saw blades.
               </p>
             </div>
             <Link
-              href="/products/diamond-tools"
+              href="/products/carman"
               className="text-xs font-bold text-monex-green hover:underline flex items-center gap-1 uppercase tracking-wider pt-2"
             >
-              <span>Explore 25 Cutting Accessories →</span>
+              <span>Explore 21 Carman Products →</span>
             </Link>
           </div>
         </div>
@@ -185,7 +185,7 @@ export default function HomePage() {
             href="/products"
             className="text-xs font-bold text-monex-green hover:underline flex items-center gap-1 uppercase tracking-wider"
           >
-            <span>View All 71 Products →</span>
+            <span>View All {products.length} Products →</span>
           </Link>
         </div>
 
