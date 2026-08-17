@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import Link from "next/link";
 import ProductCard from "@/components/ProductCard";
 import catalogueData from "@/data/product-catalogue.json";
 import { Product } from "@/types/catalogue";
@@ -13,6 +12,10 @@ export default function ProductsHubPage() {
 
   const products = catalogueData.products as Product[];
 
+  const chemicalCount = products.filter((p) => p.category === "stone-care-chemicals").length;
+  const powerToolCount = products.filter((p) => p.category === "power-tools").length;
+  const carmanCount = products.filter((p) => p.category === "carman" || p.category === "diamond-tools").length;
+
   const filteredProducts = products.filter((p) => {
     const matchesSearch =
       p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -20,7 +23,9 @@ export default function ProductsHubPage() {
       (p.subcategory && p.subcategory.toLowerCase().includes(searchQuery.toLowerCase()));
 
     const matchesCategory =
-      selectedCategory === "all" || p.category === selectedCategory;
+      selectedCategory === "all" || 
+      p.category === selectedCategory || 
+      (selectedCategory === "carman" && (p.category === "carman" || p.category === "diamond-tools"));
 
     return matchesSearch && matchesCategory;
   });
@@ -31,10 +36,10 @@ export default function ProductsHubPage() {
         {/* Header */}
         <div className="bg-white border border-monex-border p-6 rounded-sm space-y-2">
           <h1 className="text-2xl sm:text-3xl font-bold text-monex-black uppercase tracking-tight">
-            Monex Product Catalogue
+            Monex & Carman Product Catalogue
           </h1>
           <p className="text-slate-600 text-xs sm:text-sm">
-            Browse our complete inventory of 71 professional stone care chemical formulas, high-durability power tools, and precision diamond cutting accessories.
+            Browse our complete inventory of {products.length} professional stone care chemical formulas, high-durability power tools, and CARMAN precision diamond cutting accessories.
           </p>
         </div>
 
@@ -72,7 +77,7 @@ export default function ProductsHubPage() {
                   : "bg-white text-slate-700 border-monex-border hover:bg-monex-offWhite"
               }`}
             >
-              Stone Chemicals (11)
+              Stone Chemicals ({chemicalCount})
             </button>
             <button
               onClick={() => setSelectedCategory("power-tools")}
@@ -82,17 +87,17 @@ export default function ProductsHubPage() {
                   : "bg-white text-slate-700 border-monex-border hover:bg-monex-offWhite"
               }`}
             >
-              Power Tools (35)
+              Power Tools ({powerToolCount})
             </button>
             <button
-              onClick={() => setSelectedCategory("diamond-tools")}
+              onClick={() => setSelectedCategory("carman")}
               className={`px-3 py-2 rounded-sm border transition-colors ${
-                selectedCategory === "diamond-tools"
+                selectedCategory === "carman"
                   ? "bg-monex-green text-white border-monex-green"
-                  : "bg-white text-slate-700 border-monex-border hover:bg-monex-offWhite"
+                  : "bg-white text-cyan-900 border-cyan-300 bg-cyan-50 hover:bg-cyan-100 font-bold"
               }`}
             >
-              Diamond Tools (25)
+              CARMAN ({carmanCount})
             </button>
           </div>
         </div>

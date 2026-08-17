@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Product } from "@/types/catalogue";
 import { getWhatsAppEnquiryUrl, getProductCanonicalUrl } from "@/lib/site-config";
-import { MessageSquare, ImageOff } from "lucide-react";
+import { MessageSquare, ImageOff, Layers } from "lucide-react";
 
 interface ProductCardProps {
   product: Product;
@@ -13,7 +13,21 @@ interface ProductCardProps {
 
 export default function ProductCard({ product }: ProductCardProps) {
   const canonicalUrl = getProductCanonicalUrl(product.category, product.slug);
-  const whatsappUrl = getWhatsAppEnquiryUrl(product.name, product.model);
+  
+  // State for interactive variant selection if product has variants
+  const initialProfile = product.variants?.grooveProfiles?.[0] || null;
+  const initialSize = product.variants?.sizes?.[0] || null;
+
+  const [selectedProfile, setSelectedProfile] = useState<string | null>(initialProfile);
+  const [selectedSize, setSelectedSize] = useState<string | null>(initialSize);
+
+  // Compute dynamic variant details label
+  const variantDetailsParts: string[] = [];
+  if (selectedProfile) variantDetailsParts.push(`Profile: ${selectedProfile}`);
+  if (selectedSize) variantDetailsParts.push(`Size: ${selectedSize}`);
+  const variantDetailsStr = variantDetailsParts.length > 0 ? variantDetailsParts.join(", ") : null;
+
+  const whatsappUrl = getWhatsAppEnquiryUrl(product.name, product.model, variantDetailsStr);
 
   // Combine primary and gallery images into an array for auto-sliding
   const allImages = [
@@ -73,13 +87,13 @@ export default function ProductCard({ product }: ProductCardProps) {
       );
     }
 
-    if (cat === "diamond-tools" || s === "Diamond Accessories") {
+    if (cat === "carman" || cat === "diamond-tools" || s.includes("CARMAN") || s.includes("DIAMOND")) {
       return (
         <span
           className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-sm text-black border border-cyan-300 shadow-sm"
           style={{ backgroundColor: "#B9F2FF" }}
         >
-          Diamond Tools
+          CARMAN
         </span>
       );
     }
@@ -144,7 +158,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         </div>
 
         {/* Product Meta */}
-        <div className="p-4 space-y-1.5">
+        <div className="p-4 space-y-2">
           {product.subcategory && (
             <span className="text-[10px] font-semibold text-monex-green uppercase tracking-wider block">
               {product.subcategory}
@@ -168,7 +182,60 @@ export default function ProductCard({ product }: ProductCardProps) {
             </p>
           )}
 
-          {product.specifications.length > 0 && (
+          {/* Interactive Variant Options (Groove Profile & Sizes) */}
+          {product.variants && (
+            <div className="pt-2 border-t border-monex-border space-y-2 text-xs">
+              {/* Groove Profiles */}
+              {product.variants.grooveProfiles && product.variants.grooveProfiles.length > 0 && (
+                <div className="space-y-1">
+                  <span className="text-[10px] font-bold text-slate-700 uppercase tracking-wider block flex items-center gap-1">
+                    <Layers className="w-3 h-3 text-monex-green" /> Profile:
+                  </span>
+                  <div className="flex flex-wrap gap-1">
+                    {product.variants.grooveProfiles.map((profile) => (
+                      <button
+                        key={profile}
+                        onClick={() => setSelectedProfile(profile)}
+                        className={`text-[10px] px-2 py-0.5 rounded-sm font-semibold border transition-colors ${
+                          selectedProfile === profile
+                            ? "bg-monex-green text-white border-monex-green"
+                            : "bg-monex-offWhite text-slate-700 border-monex-border hover:bg-slate-200"
+                        }`}
+                      >
+                        {profile}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Sizes */}
+              {product.variants.sizes && product.variants.sizes.length > 0 && (
+                <div className="space-y-1">
+                  <span className="text-[10px] font-bold text-slate-700 uppercase tracking-wider block">
+                    Size:
+                  </span>
+                  <div className="flex flex-wrap gap-1">
+                    {product.variants.sizes.map((sz) => (
+                      <button
+                        key={sz}
+                        onClick={() => setSelectedSize(sz)}
+                        className={`text-[10px] px-2 py-0.5 rounded-sm font-semibold border transition-colors ${
+                          selectedSize === sz
+                            ? "bg-monex-green text-white border-monex-green"
+                            : "bg-monex-offWhite text-slate-700 border-monex-border hover:bg-slate-200"
+                        }`}
+                      >
+                        {sz}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+
+          {!product.variants && product.specifications.length > 0 && (
             <div className="pt-2 border-t border-monex-border text-[11px] text-slate-600 space-y-0.5">
               {product.specifications.slice(0, 2).map((spec, idx) => (
                 <div key={idx} className="truncate">
@@ -189,7 +256,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           className="w-full bg-monex-green hover:bg-monex-darkGreen text-white py-2 px-3 rounded-sm text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2 transition-colors"
         >
           <MessageSquare className="w-3.5 h-3.5" />
-          <span>Enquire About Price</span>
+          <span>Enquire Price</span>
         </a>
 
         <Link

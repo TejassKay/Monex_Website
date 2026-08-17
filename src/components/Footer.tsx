@@ -21,7 +21,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-slate-400 text-xs leading-relaxed">
-              Monex is a trusted importer and manufacturer of premium stone care chemicals, power equipment, and precision diamond accessories.
+              Monex is a trusted importer and manufacturer of premium stone care chemicals, power equipment, and CARMAN precision diamond accessories.
             </p>
           </div>
 
@@ -42,13 +42,18 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/products/power-tools/made-in-india" className="hover:text-monex-green transition-colors">
+                  Made in India Power Tools
+                </Link>
+              </li>
+              <li>
                 <Link href="/products/power-tools/classic-series" className="hover:text-monex-green transition-colors">
                   Classic Series Power Tools
                 </Link>
               </li>
               <li>
-                <Link href="/products/diamond-tools" className="hover:text-monex-green transition-colors">
-                  Diamond Tools & Accessories
+                <Link href="/products/carman" className="hover:text-monex-green transition-colors font-bold text-slate-200">
+                  CARMAN Division
                 </Link>
               </li>
             </ul>

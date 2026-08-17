@@ -15,7 +15,7 @@ export default function Header() {
       <div className="bg-monex-black text-slate-300 text-xs py-2 px-4 sm:px-8">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <span className="font-medium text-[11px] sm:text-xs">
-            Monex — Stone Care Chemicals, Power Tools & Made in India Equipment
+            Monex — Stone Care Chemicals, Power Tools & Carman Equipment
           </span>
           <div className="flex items-center gap-6 text-[11px] sm:text-xs">
             <a
@@ -64,7 +64,7 @@ export default function Header() {
             Stone Chemicals
           </Link>
 
-          {/* Power Tools & Series Dropdown Links */}
+          {/* Power Tools Dropdown */}
           <div className="relative group py-2">
             <Link href="/products/power-tools" className="hover:text-monex-green transition-colors flex items-center gap-1">
               <span>Power Tools</span>
@@ -82,9 +82,21 @@ export default function Header() {
             </div>
           </div>
 
-          <Link href="/products/diamond-tools" className="hover:text-monex-green transition-colors py-2">
-            Diamond Tools
-          </Link>
+          {/* CARMAN Dropdown */}
+          <div className="relative group py-2">
+            <Link href="/products/carman" className="hover:text-monex-green transition-colors flex items-center gap-1 text-cyan-800 font-bold">
+              <span>CARMAN</span>
+            </Link>
+            <div className="absolute top-full left-0 hidden group-hover:block bg-white border border-monex-border shadow-md rounded-sm py-2 w-52 z-50 text-xs">
+              <Link href="/products/carman/diamond-saw-blades" className="block px-4 py-2 hover:bg-monex-offWhite hover:text-monex-green font-bold">
+                Diamond Saw Blades
+              </Link>
+              <Link href="/products/carman/accessories" className="block px-4 py-2 hover:bg-monex-offWhite hover:text-monex-green font-bold">
+                Accessories
+              </Link>
+            </div>
+          </div>
+
           <Link href="/about" className="hover:text-monex-green transition-colors py-2">
             About
           </Link>
@@ -172,13 +184,29 @@ export default function Header() {
             </Link>
           </div>
 
-          <Link
-            href="/products/diamond-tools"
-            onClick={() => setMobileMenuOpen(false)}
-            className="block py-1.5 pl-4 text-xs font-medium text-slate-700 hover:text-monex-green"
-          >
-            • Diamond Tools & Accessories
-          </Link>
+          <div className="py-1.5 pl-4 space-y-1">
+            <Link
+              href="/products/carman"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block text-xs font-extrabold text-cyan-800 hover:text-monex-green"
+            >
+              • CARMAN Division
+            </Link>
+            <Link
+              href="/products/carman/diamond-saw-blades"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block pl-3 text-[11px] text-slate-600 hover:text-monex-green font-semibold"
+            >
+              - Diamond Saw Blades
+            </Link>
+            <Link
+              href="/products/carman/accessories"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block pl-3 text-[11px] text-slate-600 hover:text-monex-green font-semibold"
+            >
+              - Accessories
+            </Link>
+          </div>
 
           <Link
             href="/about"

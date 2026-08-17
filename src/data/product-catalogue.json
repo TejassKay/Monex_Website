@@ -69,8 +69,8 @@
     {
       "id": "m555-shiner",
       "slug": "m555-shiner",
-      "name": "M555 Shiner",
-      "model": "M555 Shiner",
+      "name": "Marble Shiner",
+      "model": "M555",
       "category": "stone-care-chemicals",
       "subcategory": "Enhancers & Polishers",
       "series": "Monex Chemical",
@@ -100,8 +100,8 @@
     {
       "id": "r33-disinfectant",
       "slug": "r33-disinfectant",
-      "name": "R33 Disinfectant",
-      "model": "R33 Disinfectant",
+      "name": "Surface Disinfectant & Cleaner",
+      "model": "R33",
       "category": "stone-care-chemicals",
       "subcategory": "Cleaners & Disinfectants",
       "series": "Monex Chemical",
@@ -131,7 +131,7 @@
     {
       "id": "mastic",
       "slug": "mastic",
-      "name": "Mastic",
+      "name": "Polyester Stone Adhesive Mastic",
       "model": "Mastic",
       "category": "stone-care-chemicals",
       "subcategory": "Adhesives & Epoxies",
@@ -163,8 +163,8 @@
     {
       "id": "hipo-glue",
       "slug": "hipo-glue",
-      "name": "Hipo-Glue",
-      "model": "Hipo-Glue Gel",
+      "name": "Transparent Gel Adhesive",
+      "model": "Hipo-Glue",
       "category": "stone-care-chemicals",
       "subcategory": "Adhesives & Epoxies",
       "series": "Monex Chemical",
@@ -193,7 +193,7 @@
     {
       "id": "densifier-sil-200",
       "slug": "densifier-sil-200",
-      "name": "Densifier Sil-200",
+      "name": "Nano Densifier Sil-200",
       "model": "Sil-200",
       "category": "stone-care-chemicals",
       "subcategory": "Densifiers & Hardeners",
@@ -221,7 +221,7 @@
     {
       "id": "densifier-sil-800",
       "slug": "densifier-sil-800",
-      "name": "Densifier Sil-800",
+      "name": "Nano Densifier Sil-800",
       "model": "Sil-800",
       "category": "stone-care-chemicals",
       "subcategory": "Densifiers & Hardeners",
@@ -249,7 +249,7 @@
     {
       "id": "l-special-polygel",
       "slug": "l-special-polygel",
-      "name": "L-Special / Polygel",
+      "name": "Polygel Mastic Paste",
       "model": "L-Special",
       "category": "stone-care-chemicals",
       "subcategory": "Adhesives & Epoxies",
@@ -279,8 +279,8 @@
     {
       "id": "bottom-surface-sealer",
       "slug": "bottom-surface-sealer",
-      "name": "Bottom Surface Sealer",
-      "model": "Bottom Surface Sealer",
+      "name": "Bottom Surface Stone Sealer",
+      "model": "Sealer-100",
       "category": "stone-care-chemicals",
       "subcategory": "Sealers & Surface Protection",
       "series": "Monex Chemical",
@@ -310,8 +310,8 @@
     {
       "id": "epoxy-resin-hardener",
       "slug": "epoxy-resin-hardener",
-      "name": "Epoxy: Resin & Hardener",
-      "model": "Epoxy Resin & Hardener System",
+      "name": "2-Part Epoxy System (Resin & Hardener)",
+      "model": "Epoxy Paste",
       "category": "stone-care-chemicals",
       "subcategory": "Adhesives & Epoxies",
       "series": "Monex Chemical",
@@ -336,8 +336,8 @@
     {
       "id": "stone-darkner-plus",
       "slug": "stone-darkner-plus",
-      "name": "Stone Darkner Plus",
-      "model": "Stone Darkner Plus",
+      "name": "Stone Darkener Plus Color Enhancer",
+      "model": "Darkener Plus",
       "category": "stone-care-chemicals",
       "subcategory": "Sealers & Surface Protection",
       "series": "Monex Chemical",
@@ -362,7 +362,7 @@
     {
       "id": "stain-remover",
       "slug": "stain-remover",
-      "name": "Stain Remover",
+      "name": "Heavy Duty Stone Stain Remover",
       "model": "Stain Remover",
       "category": "stone-care-chemicals",
       "subcategory": "Cleaners & Disinfectants",
@@ -392,7 +392,7 @@
     {
       "id": "mx-62l",
       "slug": "mx-62l-compressor",
-      "name": "MX-62L Compressor",
+      "name": "Air Compressor",
       "model": "MX-62L",
       "category": "power-tools",
       "subcategory": "Pro Series",
@@ -416,7 +416,7 @@
     {
       "id": "mx-dh26",
       "slug": "mx-dh26-rotary-hammer",
-      "name": "MX-DH26 Rotary Hammer",
+      "name": "Rotary Hammer Machine",
       "model": "MX-DH26",
       "category": "power-tools",
       "subcategory": "Pro Series",
@@ -440,7 +440,7 @@
     {
       "id": "mx-10d-lr",
       "slug": "mx-10d-lr-drill",
-      "name": "MX 10D L/R Drill",
+      "name": "L/R Electric Drill",
       "model": "MX 10D L/R",
       "category": "power-tools",
       "subcategory": "Pro Series",
@@ -468,7 +468,7 @@
     {
       "id": "mx-10a",
       "slug": "mx-10a-drill",
-      "name": "MX-10A Drill",
+      "name": "High Speed Electric Drill",
       "model": "MX-10A",
       "category": "power-tools",
       "subcategory": "Pro Series",
@@ -496,7 +496,7 @@
     {
       "id": "mx-2510",
       "slug": "mx-2510-planer",
-      "name": "MX-2510 Planer",
+      "name": "Electric Wood Planer",
       "model": "MX-2510",
       "category": "power-tools",
       "subcategory": "Pro Series",
@@ -520,7 +520,7 @@
     {
       "id": "mx-cm5-pro",
       "slug": "mx-cm5-pro-cutter",
-      "name": "MX-CM5 PRO Cutter",
+      "name": "PRO Series Marble Cutter",
       "model": "MX-CM5 PRO",
       "category": "power-tools",
       "subcategory": "Pro Series",
@@ -544,7 +544,7 @@
     {
       "id": "mx-ph65a",
       "slug": "mx-ph65a-demolition-hammer",
-      "name": "MX-PH65A Demolition Hammer",
+      "name": "Heavy Demolition Hammer",
       "model": "MX-PH65A",
       "category": "power-tools",
       "subcategory": "Pro Series",
@@ -568,7 +568,7 @@
     {
       "id": "mb-400",
       "slug": "mb-400-blower",
-      "name": "MB-400 Blower",
+      "name": "Single Speed Electric Blower",
       "model": "MB-400",
       "category": "power-tools",
       "subcategory": "Made in India",
@@ -584,7 +584,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/made_in_india/mb_blower.png",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -592,7 +592,7 @@
     {
       "id": "mb-500v",
       "slug": "mb-500v-blower",
-      "name": "MB-500V Blower",
+      "name": "Variable Speed Electric Blower",
       "model": "MB-500V",
       "category": "power-tools",
       "subcategory": "Made in India",
@@ -608,7 +608,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/made_in_india/mb_blower.png",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -616,7 +616,7 @@
     {
       "id": "mhg-1800",
       "slug": "mhg-1800-heat-gun",
-      "name": "MHG-1800 Heat Gun",
+      "name": "Industrial Heat Gun",
       "model": "MHG-1800",
       "category": "power-tools",
       "subcategory": "Made in India",
@@ -632,7 +632,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/made_in_india/MHG_1800_HEAT_GUN.PNG",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -640,7 +640,7 @@
     {
       "id": "msp-10",
       "slug": "msp-10-impact-drill",
-      "name": "MSP-10 Impact Drill",
+      "name": "Heavy Impact Drill",
       "model": "MSP-10",
       "category": "power-tools",
       "subcategory": "Made in India",
@@ -656,7 +656,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/made_in_india/MSP10_HSD2700_MHD13.PNG",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -664,7 +664,7 @@
     {
       "id": "hsd2700",
       "slug": "hsd2700-polisher",
-      "name": "HSD2700 Polisher",
+      "name": "High Speed Surface Polisher",
       "model": "HSD2700",
       "category": "power-tools",
       "subcategory": "Made in India",
@@ -680,7 +680,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/made_in_india/MSP10_HSD2700_MHD13.PNG",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -688,7 +688,7 @@
     {
       "id": "mhd-13",
       "slug": "mhd-13-hammer-drill",
-      "name": "MHD-13 Hammer Drill",
+      "name": "Impact Hammer Drill",
       "model": "MHD-13",
       "category": "power-tools",
       "subcategory": "Made in India",
@@ -704,7 +704,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/made_in_india/MSP10_HSD2700_MHD13.PNG",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -712,7 +712,7 @@
     {
       "id": "mc-110",
       "slug": "mc-110-cutter",
-      "name": "MC-110 CM4 Cutter",
+      "name": "CM4 Marble Cutter Machine",
       "model": "MC-110",
       "category": "power-tools",
       "subcategory": "Made in India",
@@ -728,7 +728,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/made_in_india/mc110_C4_CUTTING_MACHINE.png",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -736,7 +736,7 @@
     {
       "id": "mc-110xf",
       "slug": "mc-110xf-cutter",
-      "name": "MC-110XF Cutter",
+      "name": "CM4 50mm Armature/Stator Cutter",
       "model": "MC-110XF",
       "category": "power-tools",
       "subcategory": "Made in India",
@@ -752,7 +752,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/made_in_india/mc110_C4_CUTTING_MACHINE.png",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -760,7 +760,7 @@
     {
       "id": "mc-125b",
       "slug": "mc-125b-cutter",
-      "name": "MC-125B 5\" SB Cutter",
+      "name": "5\" SB Heavy Cutter Machine",
       "model": "MC-125B",
       "category": "power-tools",
       "subcategory": "Made in India",
@@ -776,7 +776,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/made_in_india/MC_125B.png",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -784,7 +784,7 @@
     {
       "id": "mc-150",
       "slug": "mc-150-cutter",
-      "name": "MC-150 CM6 Cutter",
+      "name": "CM6 Marble Cutter Machine",
       "model": "MC-150",
       "category": "power-tools",
       "subcategory": "Made in India",
@@ -800,7 +800,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/made_in_india/mc150.png",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -808,7 +808,7 @@
     {
       "id": "md-10",
       "slug": "md-10-drill",
-      "name": "MD-10 Drill",
+      "name": "10mm Electric Drill Machine",
       "model": "MD-10",
       "category": "power-tools",
       "subcategory": "Made in India",
@@ -824,7 +824,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/made_in_india/MD_10.png",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -832,7 +832,7 @@
     {
       "id": "mx-cm4",
       "slug": "mx-cm4-cutter",
-      "name": "MX CM4 Cutter",
+      "name": "Classic CM4 Marble Cutter",
       "model": "MX CM4",
       "category": "power-tools",
       "subcategory": "Classic Series",
@@ -856,7 +856,7 @@
     {
       "id": "mx-cm4sb",
       "slug": "mx-cm4sb-cutter",
-      "name": "MX CM4SB Cutter",
+      "name": "Classic CM4SB Marble Cutter",
       "model": "MX CM4SB",
       "category": "power-tools",
       "subcategory": "Classic Series",
@@ -880,7 +880,7 @@
     {
       "id": "mx-801",
       "slug": "mx-801-grinder",
-      "name": "MX-801 Angle Grinder",
+      "name": "Angle Grinder",
       "model": "MX-801",
       "category": "power-tools",
       "subcategory": "Classic Series",
@@ -904,11 +904,11 @@
     {
       "id": "mx-0810",
       "slug": "mx-0810-demolition",
-      "name": "MX-0810 Demolition Hammer",
+      "name": "PRO Series Demolition Hammer",
       "model": "MX-0810",
       "category": "power-tools",
-      "subcategory": "Classic Series",
-      "series": "Classic Series",
+      "subcategory": "Pro Series",
+      "series": "Pro Series",
       "tagline": "5KG / 0810 DEMOLITION",
       "description": null,
       "packSizes": [],
@@ -920,7 +920,7 @@
       ],
       "catalogueStatus": "Arriving Soon",
       "images": {
-        "primary": "/products/power_tools/monex_classic/MXDH0810_Demolition_Hammer.jpeg",
+        "primary": "/products/power_tools/pro_series/MXDH0810_Demolition_Hammer.png",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -928,7 +928,7 @@
     {
       "id": "mx-6100",
       "slug": "mx-6100-grinder",
-      "name": "MX-6100 Angle Grinder",
+      "name": "High Output Angle Grinder",
       "model": "MX-6100",
       "category": "power-tools",
       "subcategory": "Classic Series",
@@ -952,11 +952,11 @@
     {
       "id": "mx-0835",
       "slug": "mx-0835-demolition",
-      "name": "MX-0835 Demolition Hammer",
+      "name": "PRO Series Demolition Hammer",
       "model": "MX-0835",
       "category": "power-tools",
-      "subcategory": "Classic Series",
-      "series": "Classic Series",
+      "subcategory": "Pro Series",
+      "series": "Pro Series",
       "tagline": "7KG / 0835 DEMOLITION",
       "description": null,
       "packSizes": [],
@@ -968,7 +968,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": "/products/power_tools/monex_classic/MX-0835_DEMOLITION HAMMER.jpeg",
+        "primary": "/products/power_tools/pro_series/MX-0835_DEMOLITION_HAMMER.png",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -976,11 +976,11 @@
     {
       "id": "mx-ff160",
       "slug": "mx-ff160-paint-mixer",
-      "name": "MX-FF160 Paint Mixer",
+      "name": "PRO Series Paint & Mortar Mixer",
       "model": "MX-FF160",
       "category": "power-tools",
-      "subcategory": "Classic Series",
-      "series": "Classic Series",
+      "subcategory": "Pro Series",
+      "series": "Pro Series",
       "tagline": "PAINT MIXTURE",
       "description": null,
       "packSizes": [],
@@ -992,7 +992,7 @@
       ],
       "catalogueStatus": "Arriving Soon",
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/pro_series/PAINT_MIXTURE.png",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -1000,7 +1000,7 @@
     {
       "id": "mx-sd10b",
       "slug": "mx-sd10b-screwdriver",
-      "name": "MX-SD10B Electric Screwdriver",
+      "name": "Electric Screwdriver",
       "model": "MX-SD10B",
       "category": "power-tools",
       "subcategory": "Classic Series",
@@ -1024,7 +1024,7 @@
     {
       "id": "mx-35-a",
       "slug": "mx-35-a-vibrator",
-      "name": "MX-35-A Vibrator Machine",
+      "name": "Electric Concrete Vibrator Machine",
       "model": "MX-35-A",
       "category": "power-tools",
       "subcategory": "Classic Series",
@@ -1048,7 +1048,7 @@
     {
       "id": "mx-2-26",
       "slug": "mx-2-26-hammer",
-      "name": "MX-2-26 Hammer Machine",
+      "name": "Rotary Hammer Machine",
       "model": "MX-2-26",
       "category": "power-tools",
       "subcategory": "Classic Series",
@@ -1070,33 +1070,9 @@
       }
     },
     {
-      "id": "mx-50l",
-      "slug": "mx-50l-compressor",
-      "name": "MX-50L Compressor",
-      "model": "MX-50L",
-      "category": "power-tools",
-      "subcategory": "Classic Series",
-      "series": "Classic Series",
-      "tagline": "COMPRESSOR 50L",
-      "description": null,
-      "packSizes": [],
-      "specifications": [
-        {
-          "key": "Capacity",
-          "value": "50L"
-        }
-      ],
-      "catalogueStatus": "Arriving Soon",
-      "images": {
-        "primary": null,
-        "gallery": [],
-        "status": "catalogue_reference"
-      }
-    },
-    {
       "id": "mx-2-20",
       "slug": "mx-2-20-hammer",
-      "name": "MX-2-20 Hammer",
+      "name": "Compact Rotary Hammer",
       "model": "MX-2-20",
       "category": "power-tools",
       "subcategory": "Classic Series",
@@ -1120,7 +1096,7 @@
     {
       "id": "mx-tv-21",
       "slug": "mx-tv-21-tile-vibrator",
-      "name": "MX-TV-21 Tile Vibrator",
+      "name": "Tile Suction Vibrator Machine",
       "model": "MX-TV-21",
       "category": "power-tools",
       "subcategory": "Classic Series",
@@ -1144,7 +1120,7 @@
     {
       "id": "gdr-17",
       "slug": "gdr-17-floor-polishing-machine",
-      "name": "GDR-17 Floor Polishing Machine",
+      "name": "Industrial Floor Polishing Machine",
       "model": "GDR-17",
       "category": "power-tools",
       "subcategory": "Classic Series",
@@ -1160,7 +1136,7 @@
       ],
       "catalogueStatus": "Price on Order",
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/monex_classic/FLOOR_POLISHING_MACHINE.png",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -1168,7 +1144,7 @@
     {
       "id": "mx-cp-180",
       "slug": "mx-cp-180-car-polisher",
-      "name": "MX-CP-180 Car Polisher",
+      "name": "Variable Speed Car Polisher",
       "model": "MX-CP-180",
       "category": "power-tools",
       "subcategory": "Classic Series",
@@ -1194,7 +1170,7 @@
     {
       "id": "mx-2-13a",
       "slug": "mx-2-13a-hammer-drill",
-      "name": "MX-2-13A Hammer Drill with Kit",
+      "name": "Hammer Drill Kit Set",
       "model": "MX-2-13A",
       "category": "power-tools",
       "subcategory": "Classic Series",
@@ -1224,7 +1200,7 @@
     {
       "id": "mx-clipper",
       "slug": "mx-clipper-horse-clipper",
-      "name": "MX-CLIPPER Horse Clipper",
+      "name": "Electric Clipper Machine",
       "model": "MX-CLIPPER",
       "category": "power-tools",
       "subcategory": "Classic Series",
@@ -1240,7 +1216,7 @@
       ],
       "catalogueStatus": "Coming Soon",
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/monex_classic/horrse_clipper.png",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -1250,8 +1226,8 @@
       "slug": "9t-pro-diamond-blade",
       "name": "9T PRO Diamond Blade",
       "model": "9T PRO",
-      "category": "diamond-tools",
-      "subcategory": "Pro Series Diamond Blades",
+      "category": "carman",
+      "subcategory": "DIAMOND SAW BLADES",
       "series": "Diamond Accessories",
       "tagline": "Pro Series Cutting Blade",
       "description": null,
@@ -1270,8 +1246,8 @@
       "slug": "16t-pro-diamond-blade",
       "name": "16T PRO Diamond Blade",
       "model": "16T PRO",
-      "category": "diamond-tools",
-      "subcategory": "Pro Series Diamond Blades",
+      "category": "carman",
+      "subcategory": "DIAMOND SAW BLADES",
       "series": "Diamond Accessories",
       "tagline": "Pro Series Cutting Blade",
       "description": null,
@@ -1288,10 +1264,10 @@
     {
       "id": "blade-super-thin-turbo",
       "slug": "super-thin-turbo-blade",
-      "name": "Super Thin Turbo Blade",
+      "name": "Super Thin Turbo Diamond Blade",
       "model": "Super Thin Turbo",
-      "category": "diamond-tools",
-      "subcategory": "Zero-Chip Blades",
+      "category": "carman",
+      "subcategory": "DIAMOND SAW BLADES",
       "series": "Diamond Accessories",
       "tagline": "Super Thin Turbo Cutting Blade",
       "description": null,
@@ -1308,10 +1284,10 @@
     {
       "id": "blade-ultra-thin-0-chip",
       "slug": "ultra-thin-0-chip-blade",
-      "name": "Ultra Thin (0 Chip) Blade",
+      "name": "Ultra Thin Zero Chip Blade",
       "model": "Ultra Thin 0 Chip",
-      "category": "diamond-tools",
-      "subcategory": "Zero-Chip Blades",
+      "category": "carman",
+      "subcategory": "DIAMOND SAW BLADES",
       "series": "Diamond Accessories",
       "tagline": "Zero Chip Ultra Thin Blade",
       "description": null,
@@ -1328,10 +1304,10 @@
     {
       "id": "blade-hent-0-chip",
       "slug": "hent-0-chip-blade",
-      "name": "Hent (0 Chip) Blade",
+      "name": "Hent Zero Chip Diamond Blade",
       "model": "Hent 0 Chip",
-      "category": "diamond-tools",
-      "subcategory": "Zero-Chip Blades",
+      "category": "carman",
+      "subcategory": "DIAMOND SAW BLADES",
       "series": "Diamond Accessories",
       "tagline": "Zero Chip Precision Blade",
       "description": null,
@@ -1339,7 +1315,7 @@
       "specifications": [],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/carman/HENT_0_CHIP.png",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -1347,10 +1323,10 @@
     {
       "id": "blade-gold-series-0-chip",
       "slug": "gold-series-0-chip-blade",
-      "name": "Gold Series (0 Chip) Blade",
+      "name": "Gold Series Zero Chip Blade",
       "model": "Gold Series 0 Chip",
-      "category": "diamond-tools",
-      "subcategory": "Zero-Chip Blades",
+      "category": "carman",
+      "subcategory": "DIAMOND SAW BLADES",
       "series": "Diamond Accessories",
       "tagline": "Gold Series Zero Chip Blade",
       "description": null,
@@ -1367,10 +1343,10 @@
     {
       "id": "blade-one-touch-0-chip",
       "slug": "one-touch-0-chip-blade",
-      "name": "One Touch (0 Chip) Blade",
+      "name": "One Touch Zero Chip Blade",
       "model": "One Touch 0 Chip",
-      "category": "diamond-tools",
-      "subcategory": "Zero-Chip Blades",
+      "category": "carman",
+      "subcategory": "DIAMOND SAW BLADES",
       "series": "Diamond Accessories",
       "tagline": "One Touch Zero Chip Blade",
       "description": null,
@@ -1387,9 +1363,9 @@
     {
       "id": "blade-wood-4-30t",
       "slug": "wood-4x30t-blade",
-      "name": "Wood Saw Blade 4\" 30T",
+      "name": "Wood TCT Saw Blade 4\" 30T",
       "model": "Wood 4*30T",
-      "category": "diamond-tools",
+      "category": "carman",
       "subcategory": "Wood Cutting Blades",
       "series": "Diamond Accessories",
       "tagline": "4 inch 30 Teeth Wood Blade",
@@ -1412,9 +1388,9 @@
     {
       "id": "blade-wood-5-30t",
       "slug": "wood-5x30t-blade",
-      "name": "Wood Saw Blade 5\" 30T",
+      "name": "Wood TCT Saw Blade 5\" 30T",
       "model": "Wood 5*30T",
-      "category": "diamond-tools",
+      "category": "carman",
       "subcategory": "Wood Cutting Blades",
       "series": "Diamond Accessories",
       "tagline": "5 inch 30 Teeth Wood Blade",
@@ -1435,50 +1411,12 @@
       "imageStatus": "supplied_photo"
     },
     {
-      "id": "blade-v-groove",
-      "slug": "v-groove-blade",
-      "name": "V Groove Blade",
-      "model": "V Groove",
-      "category": "diamond-tools",
-      "subcategory": "Grooving Blades",
-      "series": "Diamond Accessories",
-      "tagline": "V-Shape Grooving Blade",
-      "description": null,
-      "packSizes": [],
-      "specifications": [],
-      "catalogueStatus": null,
-      "images": {
-        "primary": null,
-        "gallery": [],
-        "status": "catalogue_reference"
-      }
-    },
-    {
-      "id": "blade-c-groove",
-      "slug": "c-groove-blade",
-      "name": "C Groove Blade",
-      "model": "C Groove",
-      "category": "diamond-tools",
-      "subcategory": "Grooving Blades",
-      "series": "Diamond Accessories",
-      "tagline": "C-Shape Grooving Blade",
-      "description": null,
-      "packSizes": [],
-      "specifications": [],
-      "catalogueStatus": null,
-      "images": {
-        "primary": null,
-        "gallery": [],
-        "status": "catalogue_reference"
-      }
-    },
-    {
       "id": "blade-electroplated",
       "slug": "electroplated-blade",
-      "name": "Electroplated Blade",
+      "name": "Electroplated Diamond Blade",
       "model": "Electroplated",
-      "category": "diamond-tools",
-      "subcategory": "Grooving Blades",
+      "category": "carman",
+      "subcategory": "ACCESSORIES",
       "series": "Diamond Accessories",
       "tagline": "Electroplated Diamond Blade",
       "description": null,
@@ -1486,7 +1424,7 @@
       "specifications": [],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/carman/ELECTROPLATED_BLADE.png",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -1494,10 +1432,10 @@
     {
       "id": "blade-3-cut",
       "slug": "3-cut-blade",
-      "name": "3 Cut Blade",
+      "name": "3 Cut Diamond Blade",
       "model": "3 Cut",
-      "category": "diamond-tools",
-      "subcategory": "Grooving Blades",
+      "category": "carman",
+      "subcategory": "DIAMOND SAW BLADES",
       "series": "Diamond Accessories",
       "tagline": "Triple Cut Blade",
       "description": null,
@@ -1514,10 +1452,10 @@
     {
       "id": "blade-turbo-rim",
       "slug": "turbo-rim-blade",
-      "name": "Turbo + Rim Blade",
+      "name": "Turbo + Rim Diamond Blade",
       "model": "Turbo + Rim",
-      "category": "diamond-tools",
-      "subcategory": "Grooving Blades",
+      "category": "carman",
+      "subcategory": "DIAMOND SAW BLADES",
       "series": "Diamond Accessories",
       "tagline": "Turbo Segmented Rim Blade",
       "description": null,
@@ -1534,10 +1472,10 @@
     {
       "id": "blade-3in-turbo",
       "slug": "3in-turbo-blade",
-      "name": "3\" Turbo Blade",
+      "name": "3\" Turbo Diamond Blade",
       "model": "3\" Turbo",
-      "category": "diamond-tools",
-      "subcategory": "Specialty Blades",
+      "category": "carman",
+      "subcategory": "DIAMOND SAW BLADES",
       "series": "Diamond Accessories",
       "tagline": "3 Inch Turbo Cutting Blade",
       "description": null,
@@ -1554,10 +1492,10 @@
     {
       "id": "blade-3in-rim",
       "slug": "3in-rim-blade",
-      "name": "3\" Rim Blade",
+      "name": "3\" Rim Diamond Blade",
       "model": "3\" Rim",
-      "category": "diamond-tools",
-      "subcategory": "Specialty Blades",
+      "category": "carman",
+      "subcategory": "DIAMOND SAW BLADES",
       "series": "Diamond Accessories",
       "tagline": "3 Inch Rim Cutting Blade",
       "description": null,
@@ -1565,7 +1503,7 @@
       "specifications": [],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/carman/3_INCH_RIM_BLADE.png",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -1573,10 +1511,10 @@
     {
       "id": "blade-3in-segment",
       "slug": "3in-segment-blade",
-      "name": "3\" Segment Blade",
+      "name": "3\" Segment Diamond Blade",
       "model": "3\" Segment",
-      "category": "diamond-tools",
-      "subcategory": "Specialty Blades",
+      "category": "carman",
+      "subcategory": "DIAMOND SAW BLADES",
       "series": "Diamond Accessories",
       "tagline": "3 Inch Segmented Blade",
       "description": null,
@@ -1584,38 +1522,7 @@
       "specifications": [],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
-        "gallery": [],
-        "status": "catalogue_reference"
-      }
-    },
-    {
-      "id": "blade-u-groove",
-      "slug": "u-groove-blade",
-      "name": "U Groove Blade",
-      "model": "U Groove",
-      "category": "diamond-tools",
-      "subcategory": "Grooving Blades",
-      "series": "Diamond Accessories",
-      "tagline": "U-Shape Grooving Blade (4mm to 12mm)",
-      "description": null,
-      "packSizes": [
-        "4mm",
-        "5mm",
-        "6mm",
-        "8mm",
-        "10mm",
-        "12mm"
-      ],
-      "specifications": [
-        {
-          "key": "Width Variants",
-          "value": "4mm, 5mm, 6mm, 8mm, 10mm, 12mm"
-        }
-      ],
-      "catalogueStatus": null,
-      "images": {
-        "primary": null,
+        "primary": "/products/power_tools/carman/3_INCH_SEGMENT_BLADE.png",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -1623,10 +1530,10 @@
     {
       "id": "blade-5in-22id",
       "slug": "5in-22id-blade",
-      "name": "5\" 22 ID Blade",
+      "name": "5\" 22 ID Diamond Blade",
       "model": "5\" 22 ID",
-      "category": "diamond-tools",
-      "subcategory": "Specialty Blades",
+      "category": "carman",
+      "subcategory": "DIAMOND SAW BLADES",
       "series": "Diamond Accessories",
       "tagline": "5 Inch Blade with 22mm Inner Diameter",
       "description": null,
@@ -1652,10 +1559,10 @@
     {
       "id": "blade-114mm-22id",
       "slug": "114mm-dia-22id-blade",
-      "name": "114mm Dia 22ID Blade",
-      "model": "114mm Dia, 22ID",
-      "category": "diamond-tools",
-      "subcategory": "Specialty Blades",
+      "name": "114mm Dia 22ID Diamond Blade",
+      "model": "114mm Dia 22ID",
+      "category": "carman",
+      "subcategory": "DIAMOND SAW BLADES",
       "series": "Diamond Accessories",
       "tagline": "114mm Diameter Blade with 22mm Inner Diameter",
       "description": null,
@@ -1672,31 +1579,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
-        "gallery": [],
-        "status": "catalogue_reference"
-      }
-    },
-    {
-      "id": "blade-6in",
-      "slug": "6in-blade",
-      "name": "6\" Cutting Blade",
-      "model": "6\" Blade",
-      "category": "diamond-tools",
-      "subcategory": "Specialty Blades",
-      "series": "Diamond Accessories",
-      "tagline": "6 Inch Diamond Cutting Blade",
-      "description": null,
-      "packSizes": [],
-      "specifications": [
-        {
-          "key": "Outer Diameter",
-          "value": "6 inch"
-        }
-      ],
-      "catalogueStatus": null,
-      "images": {
-        "primary": null,
+        "primary": "/products/power_tools/carman/114_MM_DIA_21ID_BLADE.png",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -1704,10 +1587,10 @@
     {
       "id": "blade-114mm",
       "slug": "114mm-blade",
-      "name": "114mm Cutting Blade",
+      "name": "114mm Diamond Cutting Blade",
       "model": "114mm",
-      "category": "diamond-tools",
-      "subcategory": "Specialty Blades",
+      "category": "carman",
+      "subcategory": "DIAMOND SAW BLADES",
       "series": "Diamond Accessories",
       "tagline": "114mm Standard Cutting Blade",
       "description": null,
@@ -1720,55 +1603,7 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
-        "gallery": [],
-        "status": "catalogue_reference"
-      }
-    },
-    {
-      "id": "blade-7in",
-      "slug": "7in-blade",
-      "name": "7\" Cutting Blade",
-      "model": "7\" Blade",
-      "category": "diamond-tools",
-      "subcategory": "Specialty Blades",
-      "series": "Diamond Accessories",
-      "tagline": "7 Inch Diamond Cutting Blade",
-      "description": null,
-      "packSizes": [],
-      "specifications": [
-        {
-          "key": "Outer Diameter",
-          "value": "7 inch"
-        }
-      ],
-      "catalogueStatus": null,
-      "images": {
-        "primary": null,
-        "gallery": [],
-        "status": "catalogue_reference"
-      }
-    },
-    {
-      "id": "blade-8in",
-      "slug": "8in-blade",
-      "name": "8\" Cutting Blade",
-      "model": "8\" Blade",
-      "category": "diamond-tools",
-      "subcategory": "Specialty Blades",
-      "series": "Diamond Accessories",
-      "tagline": "8 Inch Heavy Cutting Blade",
-      "description": null,
-      "packSizes": [],
-      "specifications": [
-        {
-          "key": "Outer Diameter",
-          "value": "8 inch"
-        }
-      ],
-      "catalogueStatus": null,
-      "images": {
-        "primary": null,
+        "primary": "/products/power_tools/carman/114MM__CUTTING_BLADE.png",
         "gallery": [],
         "status": "catalogue_reference"
       }
@@ -1776,10 +1611,10 @@
     {
       "id": "blade-u-cut",
       "slug": "u-cut-blade",
-      "name": "U-Cut Blade",
+      "name": "U-Cut Diamond Blade",
       "model": "U-CUT",
-      "category": "diamond-tools",
-      "subcategory": "Specialty Blades",
+      "category": "carman",
+      "subcategory": "ACCESSORIES",
       "series": "Diamond Accessories",
       "tagline": "U-Cut Diamond Blade",
       "description": null,
@@ -1787,10 +1622,288 @@
       "specifications": [],
       "catalogueStatus": null,
       "images": {
-        "primary": null,
+        "primary": "/products/power_tools/carman/U_CUT_BLADE.png",
         "gallery": [],
         "status": "catalogue_reference"
       }
+    },
+    {
+      "id": "carman-grooving-blade",
+      "slug": "carman-grooving-blade",
+      "name": "Electroplated Grooving Blade",
+      "model": "Grooving Blade (U/V/C)",
+      "category": "carman",
+      "subcategory": "ACCESSORIES",
+      "series": "CARMAN ACCESSORIES",
+      "tagline": "High-precision electroplated grooving blade available in U, V, and C profiles across 4mm to 12mm sizes.",
+      "description": "Engineered for clean, precision grooving in stone, marble, tiles, and granite. Available in U-Groove, V-Groove, and C-Groove shapes with configurable blade sizes.",
+      "images": {
+        "primary": "/products/power_tools/carman/ELECTROPLATED_GROOVE_BLADE.png",
+        "gallery": []
+      },
+      "variants": {
+        "grooveProfiles": [
+          "U Groove",
+          "V Groove",
+          "C Groove"
+        ],
+        "sizes": [
+          "4 mm",
+          "5 mm",
+          "6 mm",
+          "8 mm",
+          "10 mm",
+          "12 mm"
+        ]
+      },
+      "specifications": [
+        {
+          "key": "Available Profiles",
+          "value": "U Groove, V Groove, C Groove"
+        },
+        {
+          "key": "Available Sizes",
+          "value": "4 mm, 5 mm, 6 mm, 8 mm, 10 mm, 12 mm"
+        },
+        {
+          "key": "Technology",
+          "value": "Electroplated Diamond Edge"
+        },
+        {
+          "key": "Application",
+          "value": "Stone, Marble & Tile Grooving"
+        }
+      ],
+      "features": [
+        "Available in U, V, and C groove shapes",
+        "Precision sizing from 4mm up to 12mm",
+        "Long-life electroplated diamond coating"
+      ],
+      "applications": [
+        "Granite & Marble Grooving",
+        "Tile Surface Profiling",
+        "Decorative Edge Work"
+      ],
+      "inTheBox": [
+        "1x Carman Grooving Blade (Selected Shape & Size)"
+      ]
+    },
+    {
+      "id": "carman-cutting-blade",
+      "slug": "carman-cutting-blade",
+      "name": "Heavy Diamond Cutting Blade",
+      "model": "Cutting Blade (6\"/7\"/8\")",
+      "category": "carman",
+      "subcategory": "DIAMOND SAW BLADES",
+      "series": "DIAMOND SAW BLADES",
+      "tagline": "Industrial grade stone & marble cutting blade available in 6\", 7\", and 8\" diameter sizes.",
+      "description": "Heavy-duty diamond cutting blade designed for high-speed marble, granite, and masonry cutting with minimal chipping.",
+      "images": {
+        "primary": "/products/power_tools/carman/6_7_8_INCH_BLADE.png",
+        "gallery": []
+      },
+      "variants": {
+        "sizes": [
+          "6 inch",
+          "7 inch",
+          "8 inch"
+        ]
+      },
+      "specifications": [
+        {
+          "key": "Available Sizes",
+          "value": "6 inch, 7 inch, 8 inch"
+        },
+        {
+          "key": "Arbor Bore",
+          "value": "Standard Industrial Fit"
+        },
+        {
+          "key": "Application",
+          "value": "Granite, Marble & Masonry Cutting"
+        }
+      ],
+      "features": [
+        "Available in 6\", 7\", and 8\" sizes",
+        "High diamond concentration segment design",
+        "Smooth chip-free edge finishing"
+      ],
+      "applications": [
+        "Marble Slabs",
+        "Granite Blocks",
+        "Heavy Construction Cutting"
+      ],
+      "inTheBox": [
+        "1x Carman Heavy Cutting Blade (Selected Size)"
+      ]
+    },
+    {
+      "id": "carman-diamond-polishing-pad",
+      "slug": "carman-diamond-polishing-pad",
+      "name": "Diamond Polishing Pad",
+      "model": "DPP-100",
+      "category": "carman",
+      "subcategory": "ACCESSORIES",
+      "series": "CARMAN ACCESSORIES",
+      "tagline": "High-flexibility diamond polishing pad for stone edge finishing and mirror polish.",
+      "description": "Premium flexible diamond polishing pad engineered for marble, granite, quartz, and natural stone edge polishing with heat-resistant resin bond.",
+      "images": {
+        "primary": "/products/power_tools/carman/ACCESSORIES/DIAMOND_POLISHING_PAD.jpeg",
+        "gallery": []
+      },
+      "specifications": [
+        {
+          "key": "Bond Type",
+          "value": "Resin Diamond Matrix"
+        },
+        {
+          "key": "Application",
+          "value": "Marble, Granite, Quartz Edge Polishing"
+        },
+        {
+          "key": "Flexibility",
+          "value": "Ultra-Flexible Curved Edge Work"
+        }
+      ],
+      "features": [
+        "High diamond powder density",
+        "Heat-resistant resin matrix",
+        "Mirror-finish shine restoration"
+      ],
+      "applications": [
+        "Marble Floor Edge Polishing",
+        "Granite Countertop Finishing",
+        "Quartz Joint Buffing"
+      ],
+      "inTheBox": [
+        "1x Carman Diamond Polishing Pad"
+      ]
+    },
+    {
+      "id": "carman-diamond-core-bits",
+      "slug": "carman-diamond-core-bits",
+      "name": "Diamond Core Bits",
+      "model": "DCB-SET",
+      "category": "carman",
+      "subcategory": "ACCESSORIES",
+      "series": "CARMAN ACCESSORIES",
+      "tagline": "Vacuum brazed diamond core drill bits for fast clean hole drilling in hard stone.",
+      "description": "Vacuum brazed diamond core drill bits designed for rapid, chip-free hole drilling in granite, marble, porcelain tiles, and masonry.",
+      "images": {
+        "primary": "/products/power_tools/carman/ACCESSORIES/DIAMOND_COREBITS.jpeg",
+        "gallery": []
+      },
+      "specifications": [
+        {
+          "key": "Technology",
+          "value": "Vacuum Brazed Diamond Grit"
+        },
+        {
+          "key": "Mounting",
+          "value": "M14 Thread / Angle Grinder Fit"
+        },
+        {
+          "key": "Application",
+          "value": "Granite, Marble, Tile & Glass Hole Drilling"
+        }
+      ],
+      "features": [
+        "Fast dry & wet hole drilling",
+        "Minimal edge blowout or chipping",
+        "High speed diamond brazing"
+      ],
+      "applications": [
+        "Pipe Outlet Drilling",
+        "Faucet Hole Cutting",
+        "Stone Anchor Installation"
+      ],
+      "inTheBox": [
+        "1x Carman Diamond Core Bit"
+      ]
+    },
+    {
+      "id": "carman-double-sided-tape",
+      "slug": "carman-double-sided-tape",
+      "name": "Heavy Double Sided Mounting Tape",
+      "model": "DST-50",
+      "category": "carman",
+      "subcategory": "ACCESSORIES",
+      "series": "CARMAN ACCESSORIES",
+      "tagline": "High-tack industrial double-sided adhesive tape for stone template & tile mounting.",
+      "description": "High strength industrial double-sided adhesive tape providing instant hold for stone slab templating, tile positioning, and workshop material fixing.",
+      "images": {
+        "primary": "/products/power_tools/carman/ACCESSORIES/double_side_tape.png",
+        "gallery": []
+      },
+      "specifications": [
+        {
+          "key": "Adhesion Type",
+          "value": "High-Tack Synthetic Rubber"
+        },
+        {
+          "key": "Application",
+          "value": "Stone Template Fixing, Tile Positioning"
+        },
+        {
+          "key": "Resilience",
+          "value": "Moisture & Temperature Resistant"
+        }
+      ],
+      "features": [
+        "Instant high-tack bonding strength",
+        "Residue-free removal during template work",
+        "Durable moisture-resistant backing"
+      ],
+      "applications": [
+        "Marble Template Fixture",
+        "Tile Cutting Alignment",
+        "Workshop Material Holding"
+      ],
+      "inTheBox": [
+        "1x Carman Heavy Double Sided Mounting Tape Roll"
+      ]
+    },
+    {
+      "id": "carman-protective-non-adhesive-roll",
+      "slug": "carman-protective-non-adhesive-roll",
+      "name": "Protective Non-Adhesive Surface Roll",
+      "model": "NAR-100",
+      "category": "carman",
+      "subcategory": "ACCESSORIES",
+      "series": "CARMAN ACCESSORIES",
+      "tagline": "Heavy-duty non-adhesive protective surface roll for slab transport and scratch prevention.",
+      "description": "Tough non-adhesive protective surface film roll designed for marble & granite slab transport, protecting polished stone surfaces from scratches, dust, and impact during site work.",
+      "images": {
+        "primary": "/products/power_tools/carman/ACCESSORIES/non_adhesive_roll.png",
+        "gallery": []
+      },
+      "specifications": [
+        {
+          "key": "Material",
+          "value": "Heavy Duty Protective Polyethylene"
+        },
+        {
+          "key": "Adhesive Status",
+          "value": "Non-Adhesive Protective Layer"
+        },
+        {
+          "key": "Application",
+          "value": "Slab Transport, Polished Surface Protection"
+        }
+      ],
+      "features": [
+        "Scratch & stain protection for stone slabs",
+        "Easy roll-out application without adhesive residue",
+        "Tear-resistant construction"
+      ],
+      "applications": [
+        "Granite Slab Transportation",
+        "Marble Floor Construction Protection",
+        "Warehouse Storage"
+      ],
+      "inTheBox": [
+        "1x Carman Protective Non-Adhesive Surface Roll"
+      ]
     }
   ]
 }

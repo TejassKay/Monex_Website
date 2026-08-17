@@ -3,7 +3,7 @@ export type ImageStatus = "supplied_photo" | "catalogue_reference" | "missing";
 export interface ProductImage {
   primary: string | null;
   gallery: string[];
-  status: ImageStatus;
+  status?: ImageStatus;
 }
 
 export interface SpecificationItem {
@@ -13,20 +13,29 @@ export interface SpecificationItem {
 
 export type ProductCatalogueStatus = "Coming Soon" | "Arriving Soon" | "Price on Order" | "Order Now" | null;
 
+export interface ProductVariants {
+  grooveProfiles?: string[];
+  sizes?: string[];
+}
+
 export interface Product {
   id: string;
   slug: string;
   name: string;
   model: string | null;
-  category: "stone-care-chemicals" | "power-tools" | "diamond-tools";
+  category: "stone-care-chemicals" | "power-tools" | "carman" | "diamond-tools";
   subcategory: string | null;
-  series: "Pro Series" | "Made in India" | "Classic Series" | "Monex Chemical" | "Diamond Accessories" | null;
+  series: "Pro Series" | "Made in India" | "Classic Series" | "Monex Chemical" | "Diamond Accessories" | "CARMAN ACCESSORIES" | "DIAMOND SAW BLADES" | string;
   tagline: string | null;
   description: string | null;
-  packSizes: string[];
+  packSizes?: string[];
+  variants?: ProductVariants;
   specifications: SpecificationItem[];
-  catalogueStatus: ProductCatalogueStatus;
+  catalogueStatus?: ProductCatalogueStatus;
   images: ProductImage;
+  features?: string[];
+  applications?: string[];
+  inTheBox?: string[];
 }
 
 export interface Category {
