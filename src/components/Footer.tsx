@@ -2,27 +2,28 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { siteConfig } from "@/lib/site-config";
-import { Phone, Mail, MessageSquare } from "lucide-react";
+import { Phone, Mail, MessageSquare, MapPin } from "lucide-react";
 
 export default function Footer() {
   return (
     <footer className="bg-monex-black text-slate-300 text-xs border-t border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Brand Column */}
+          {/* Brand & Address Column */}
           <div className="space-y-3">
-            <div className="bg-white p-2 rounded-sm inline-block w-36">
+            <div className="w-36">
               <Image
-                src="/brand/monex-logo.png"
+                src="/brand/monex-logo.svg"
                 alt="Monex Logo"
-                width={130}
-                height={38}
+                width={140}
+                height={46}
                 className="object-contain"
               />
             </div>
-            <p className="text-slate-400 text-xs leading-relaxed">
-              Monex is a trusted importer and manufacturer of premium stone care chemicals, power equipment, and CARMAN precision diamond accessories.
-            </p>
+            <div className="flex items-start gap-2 text-slate-400 text-xs leading-relaxed">
+              <MapPin className="w-4 h-4 text-monex-green shrink-0 mt-0.5" />
+              <span>Khasra No. 884, Rithala Industrial Area, Delhi - 110085.</span>
+            </div>
           </div>
 
           {/* Product Links */}
@@ -95,14 +96,20 @@ export default function Footer() {
               Official Contact
             </h4>
             <div className="space-y-2 text-slate-400">
-              <div className="flex items-center gap-2">
+              <a
+                href="tel:+918287801030"
+                className="flex items-center gap-2 hover:text-emerald-400 transition-colors"
+              >
                 <Phone className="w-3.5 h-3.5 text-monex-green shrink-0" />
                 <span className="text-slate-200">+91 82878 01030</span>
-              </div>
-              <div className="flex items-center gap-2">
+              </a>
+              <a
+                href="mailto:monexpowertool@gmail.com"
+                className="flex items-center gap-2 hover:text-emerald-400 transition-colors"
+              >
                 <Mail className="w-3.5 h-3.5 text-monex-green shrink-0" />
                 <span className="text-slate-200">monexpowertool@gmail.com</span>
-              </div>
+              </a>
               
               <div className="pt-2 flex items-center gap-3">
                 <a
