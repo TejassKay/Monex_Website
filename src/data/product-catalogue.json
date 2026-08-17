@@ -460,8 +460,10 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": "/products/power_tools/pro_series/MX-10D_LR.JPG.jpeg",
-        "gallery": [],
+        "primary": "/products/power_tools/pro_series/MX-10D_LR_PRIMARY.png",
+        "gallery": [
+          "/products/power_tools/pro_series/MX-10D_LR.JPG.jpeg"
+        ],
         "status": "supplied_photo"
       }
     },
@@ -560,8 +562,10 @@
       ],
       "catalogueStatus": null,
       "images": {
-        "primary": "/products/power_tools/pro_series/MX-PH65A_HAMMER.JPG.jpeg",
-        "gallery": [],
+        "primary": "/products/power_tools/pro_series/MX-PH65A_HAMMER_PRIMARY.png",
+        "gallery": [
+          "/products/power_tools/pro_series/MX-PH65A_HAMMER.JPG.jpeg"
+        ],
         "status": "catalogue_reference"
       }
     },
